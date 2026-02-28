@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://labs.coco.xyz/clawmark/</loc>
+  </url>
+  <url>
+    <loc>https://labs.coco.xyz/clawfeed/</loc>
+  </url>
+  <url>
+    <loc>https://labs.coco.xyz/clawfi/</loc>
+  </url>
+  <url>
+    <loc>https://labs.coco.xyz/hxa-connect/</loc>
+  </url>
+  <url>
+    <loc>https://labs.coco.xyz/hxa-teams/</loc>
+  </url>
+  <url>
+    <loc>https://labs.coco.xyz/hxa-workspace/</loc>
+  </url>
+  <url>
+    <loc>https://labs.coco.xyz/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://labs.coco.xyz/zh-cn/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://labs.coco.xyz/"
+    />
+  </url>
+</urlset>

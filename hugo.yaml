@@ -1,0 +1,57 @@
+baseURL: https://labs.coco.xyz/
+languageCode: en
+defaultContentLanguage: en
+title: COCO Labs
+theme: blowfish
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: COCO Labs
+    params:
+      description: "Products and tools by COCO — empowering humans and agents to work together."
+  zh-cn:
+    languageName: 中文
+    weight: 2
+    title: COCO Labs
+    params:
+      description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
+
+params:
+  colorScheme: blowfish
+  defaultAppearance: light
+  autoSwitchAppearance: true
+
+  homepage:
+    layout: profile
+    showRecent: false
+
+  article:
+    showBreadcrumbs: true
+    showTableOfContents: true
+
+  footer:
+    showCopyright: true
+    showThemeAttribution: false
+
+  header:
+    layout: basic
+
+  author:
+    name: COCO
+    links:
+      - github: https://github.com/coco-xyz
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
