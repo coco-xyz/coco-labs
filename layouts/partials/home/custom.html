@@ -2,70 +2,67 @@
   <!-- Hero Section -->
   <div class="coco-hero">
     <img src="{{ "images/logo/horizontal-brand-yellow.svg" | relURL }}" alt="COCO" class="coco-hero-logo" width="200">
-    <h1>Build with AI.<br>Ship Together.</h1>
-    <p class="lead">
-      Open-source tools and infrastructure for human-agent collaboration.
-      From web annotation to team orchestration — everything you need to work alongside AI.
-    </p>
+    <h1>{{ i18n "home.hero_title_1" }}<br>{{ i18n "home.hero_title_2" }}</h1>
+    <p class="lead">{{ i18n "home.hero_lead" }}</p>
     <a href="https://github.com/coco-xyz" target="_blank" class="cta-btn">
-      Explore on GitHub &rarr;
+      {{ i18n "home.hero_cta" }} &rarr;
     </a>
   </div>
 
   <!-- Claw Series -->
   <div style="text-align:center;">
-    <p class="section-title">Claw Series &mdash; User-Facing Tools</p>
+    <p class="section-title">{{ i18n "home.section_claw" }}</p>
   </div>
   <div class="product-grid">
 
     <a href="{{ "clawmark/" | relURL }}" class="product-card">
       <div class="card-icon">&#9997;&#65039;</div>
-      <h3>ClawMark</h3>
-      <p>Web annotation & feedback tool. Highlight, comment, and route feedback to GitHub, Lark, Slack, or email.</p>
-      <span class="card-badge">Chrome Extension</span>
+      <h3>{{ i18n "products.clawmark_name" }}</h3>
+      <p>{{ i18n "products.clawmark_desc" }}</p>
+      <span class="card-badge">{{ i18n "products.clawmark_badge" }}</span>
     </a>
 
     <a href="{{ "clawfeed/" | relURL }}" class="product-card">
       <div class="card-icon">&#128225;</div>
-      <h3>ClawFeed</h3>
-      <p>Smart RSS reader powered by AI. Summarize, categorize, and stay informed without the noise.</p>
-      <span class="card-badge">Self-Hosted</span>
+      <h3>{{ i18n "products.clawfeed_name" }}</h3>
+      <p>{{ i18n "products.clawfeed_desc" }}</p>
+      <span class="card-badge">{{ i18n "products.clawfeed_badge" }}</span>
     </a>
 
     <a href="{{ "clawfi/" | relURL }}" class="product-card">
       <div class="card-icon">&#128176;</div>
-      <h3>ClawFi</h3>
-      <p>AI-powered family finance manager. Track expenses, plan budgets, and get intelligent financial insights.</p>
-      <span class="card-badge">Privacy-First</span>
+      <h3>{{ i18n "products.clawfi_name" }}</h3>
+      <p>{{ i18n "products.clawfi_desc" }}</p>
+      <span class="card-badge">{{ i18n "products.clawfi_badge" }}</span>
     </a>
 
   </div>
 
   <!-- HxA Infrastructure -->
   <div style="text-align:center;">
-    <p class="section-title">HxA Infrastructure &mdash; Agent Collaboration</p>
+    <p class="section-title">{{ i18n "home.section_hxa" }}</p>
   </div>
   <div class="product-grid">
 
     <a href="{{ "hxa-connect/" | relURL }}" class="product-card">
       <div class="card-icon">&#128279;</div>
-      <h3>HxA Connect</h3>
-      <p>Agent-to-agent communication protocol. Real-time WebSocket messaging across platforms.</p>
-      <span class="card-badge">Protocol</span>
+      <h3>{{ i18n "products.hxa_connect_name" }}</h3>
+      <p>{{ i18n "products.hxa_connect_desc" }}</p>
+      <span class="card-badge">{{ i18n "products.hxa_connect_badge" }}</span>
     </a>
 
     <a href="{{ "hxa-teams/" | relURL }}" class="product-card">
       <div class="card-icon">&#129309;</div>
-      <h3>HxA Teams</h3>
-      <p>Team organization templates. Define roles, workflows, and communication patterns for human-agent teams.</p>
-      <span class="card-badge">Marketplace</span>
+      <h3>{{ i18n "products.hxa_teams_name" }}</h3>
+      <p>{{ i18n "products.hxa_teams_desc" }}</p>
+      <span class="card-badge">{{ i18n "products.hxa_teams_badge" }}</span>
     </a>
 
     <a href="{{ "hxa-workspace/" | relURL }}" class="product-card">
       <div class="card-icon">&#127759;</div>
-      <h3>HxA Workspace</h3>
-      <p>Collaboration platform with identity management, shared knowledge, dashboards, and multi-agent meetings.</p>
-      <span class="card-badge">Platform</span>
+      <h3>{{ i18n "products.hxa_workspace_name" }}</h3>
+      <p>{{ i18n "products.hxa_workspace_desc" }}</p>
+      <span class="card-badge">{{ i18n "products.hxa_workspace_badge" }}</span>
     </a>
 
   </div>

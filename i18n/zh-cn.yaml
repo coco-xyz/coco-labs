@@ -1,0 +1,33 @@
+home:
+  hero_title_1: "与 AI 共建。"
+  hero_title_2: "协同交付。"
+  hero_lead: "开源工具与基础设施，让人类与 AI Agent 高效协作。从网页标注到团队编排——你需要的一切，尽在这里。"
+  hero_cta: "在 GitHub 探索"
+  section_claw: "Claw 系列 — 用户工具"
+  section_hxa: "HxA 基础设施 — Agent 协作"
+
+products:
+  clawmark_name: "ClawMark"
+  clawmark_desc: "网页标注与反馈工具。高亮文本、添加评论，一键发送到 GitHub、Lark、Slack 或邮件。"
+  clawmark_badge: "浏览器扩展"
+  clawfeed_name: "ClawFeed"
+  clawfeed_desc: "AI 驱动的智能 RSS 阅读器。自动摘要、分类，高效获取信息。"
+  clawfeed_badge: "自托管"
+  clawfi_name: "ClawFi"
+  clawfi_desc: "AI 家庭财务管理。追踪支出、规划预算，获取智能财务洞察。"
+  clawfi_badge: "隐私优先"
+  hxa_connect_name: "HxA Connect"
+  hxa_connect_desc: "Agent 间通信协议。基于 WebSocket 的跨平台实时消息传递。"
+  hxa_connect_badge: "协议"
+  hxa_teams_name: "HxA Teams"
+  hxa_teams_desc: "团队组织模板。定义角色、工作流和人机协作沟通模式。"
+  hxa_teams_badge: "模板市场"
+  hxa_workspace_name: "HxA Workspace"
+  hxa_workspace_desc: "协作平台——身份管理、共享知识库、仪表盘和多 Agent 会议。"
+  hxa_workspace_badge: "平台"
+
+common:
+  quick_start: "快速开始"
+  key_features: "核心功能"
+  components: "组件"
+  view_on_github: "在 GitHub 查看"

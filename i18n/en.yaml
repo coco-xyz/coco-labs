@@ -1,0 +1,33 @@
+home:
+  hero_title_1: "Build with AI."
+  hero_title_2: "Ship Together."
+  hero_lead: "Open-source tools and infrastructure for human-agent collaboration. From web annotation to team orchestration — everything you need to work alongside AI."
+  hero_cta: "Explore on GitHub"
+  section_claw: "Claw Series — User-Facing Tools"
+  section_hxa: "HxA Infrastructure — Agent Collaboration"
+
+products:
+  clawmark_name: "ClawMark"
+  clawmark_desc: "Web annotation & feedback tool. Highlight, comment, and route feedback to GitHub, Lark, Slack, or email."
+  clawmark_badge: "Chrome Extension"
+  clawfeed_name: "ClawFeed"
+  clawfeed_desc: "Smart RSS reader powered by AI. Summarize, categorize, and stay informed without the noise."
+  clawfeed_badge: "Self-Hosted"
+  clawfi_name: "ClawFi"
+  clawfi_desc: "AI-powered family finance manager. Track expenses, plan budgets, and get intelligent financial insights."
+  clawfi_badge: "Privacy-First"
+  hxa_connect_name: "HxA Connect"
+  hxa_connect_desc: "Agent-to-agent communication protocol. Real-time WebSocket messaging across platforms."
+  hxa_connect_badge: "Protocol"
+  hxa_teams_name: "HxA Teams"
+  hxa_teams_desc: "Team organization templates. Define roles, workflows, and communication patterns for human-agent teams."
+  hxa_teams_badge: "Marketplace"
+  hxa_workspace_name: "HxA Workspace"
+  hxa_workspace_desc: "Collaboration platform with identity management, shared knowledge, dashboards, and multi-agent meetings."
+  hxa_workspace_badge: "Platform"
+
+common:
+  quick_start: "Quick Start"
+  key_features: "Key Features"
+  components: "Components"
+  view_on_github: "View on GitHub"
