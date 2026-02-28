@@ -2,19 +2,59 @@
 title: "HxA Teams"
 description: "Team organization templates for human-agent teams"
 weight: 5
+layout: "product"
 ---
 
-## What is HxA Teams?
+<div class="product-hero">
+  <span class="badge">Template Marketplace</span>
+  <h1>HxA Teams</h1>
+  <p class="tagline">
+    CLI-driven marketplace of team organization templates. Define roles, workflows, and communication patterns for human-agent teams — then share them with the community.
+  </p>
+  <div class="hero-actions">
+    <a href="https://github.com/coco-xyz/hxa-teams" target="_blank" class="btn-primary">View on GitHub &rarr;</a>
+  </div>
+</div>
 
-HxA Teams is a CLI-driven marketplace of team organization templates. Define roles, workflows, and communication patterns for human-agent teams — then share them with the community.
+<div class="features-section">
+  <h2>Key Features</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">&#128230;</div>
+      <h3>Template Marketplace</h3>
+      <p>Browse and install team configurations from a growing library of community-contributed templates.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#128187;</div>
+      <h3>CLI-First</h3>
+      <p>Initialize, contribute, and update team templates with simple CLI commands: <code>hxa-teams init</code>, <code>contribute</code>, <code>update</code>.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#129504;</div>
+      <h3>AI Recommendations</h3>
+      <p>Get template suggestions based on your project needs. AI-driven matching finds the best team structure for your use case.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#128295;</div>
+      <h3>Composable</h3>
+      <p>Mix and match templates for different projects. Declare HxA dependencies and compose team configurations flexibly.</p>
+    </div>
+  </div>
+</div>
 
-## Key Features
+<div class="quickstart-section">
+  <h2>Quick Start</h2>
 
-- **Template Marketplace** — Browse and install team configurations
-- **CLI-First** — `hxa-teams init`, `contribute`, `update`
-- **AI Recommendations** — Get template suggestions based on your project needs
-- **Composable** — Mix and match templates for different projects
+```bash
+git clone https://github.com/coco-xyz/hxa-teams.git
+cd hxa-teams
+npm install
+npx hxa-teams init
+```
 
-## Links
+</div>
 
-- [GitHub Repository](https://github.com/coco-xyz/hxa-teams)
+<div class="bottom-links">
+  <a href="https://github.com/coco-xyz/hxa-teams" target="_blank">GitHub &nearr;</a>
+  <a href="https://github.com/coco-xyz/hxa-teams/issues" target="_blank">Issues &nearr;</a>
+</div>
