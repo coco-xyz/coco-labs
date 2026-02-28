@@ -2,7 +2,7 @@
 title: "ClawMark"
 description: "Annotate any webpage. Share feedback instantly."
 weight: 1
-layout: "simple"
+layout: "product"
 ---
 
 <div class="product-hero">
