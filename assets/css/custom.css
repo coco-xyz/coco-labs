@@ -13,6 +13,11 @@ html {
   margin: 0 auto;
 }
 
+.coco-hero-logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
 .coco-hero h1 {
   font-size: 2.75rem;
   font-weight: 800;
