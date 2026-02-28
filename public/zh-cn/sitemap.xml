@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://labs.coco.xyz/zh-cn/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/zh-cn/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://labs.coco.xyz/"
+      href="https://coco-xyz.github.io/coco-labs/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://labs.coco.xyz/zh-cn/"
+      href="https://coco-xyz.github.io/coco-labs/zh-cn/"
     />
   </url>
 </urlset>

@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ClawFeed on COCO Labs</title>
-    <link>https://labs.coco.xyz/clawfeed/</link>
+    <link>https://coco-xyz.github.io/coco-labs/clawfeed/</link>
     <description>Recent content in ClawFeed on COCO Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 COCO</copyright>
-    <atom:link href="https://labs.coco.xyz/clawfeed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://coco-xyz.github.io/coco-labs/clawfeed/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

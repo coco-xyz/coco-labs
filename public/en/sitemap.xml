@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://labs.coco.xyz/clawmark/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/clawmark/</loc>
   </url>
   <url>
-    <loc>https://labs.coco.xyz/clawfeed/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/clawfeed/</loc>
   </url>
   <url>
-    <loc>https://labs.coco.xyz/clawfi/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/clawfi/</loc>
   </url>
   <url>
-    <loc>https://labs.coco.xyz/hxa-connect/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/hxa-connect/</loc>
   </url>
   <url>
-    <loc>https://labs.coco.xyz/hxa-teams/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/hxa-teams/</loc>
   </url>
   <url>
-    <loc>https://labs.coco.xyz/hxa-workspace/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/hxa-workspace/</loc>
   </url>
   <url>
-    <loc>https://labs.coco.xyz/</loc>
+    <loc>https://coco-xyz.github.io/coco-labs/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="https://labs.coco.xyz/zh-cn/"
+      href="https://coco-xyz.github.io/coco-labs/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://labs.coco.xyz/"
+      href="https://coco-xyz.github.io/coco-labs/"
     />
   </url>
 </urlset>
