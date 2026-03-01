@@ -1,0 +1,13 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "COCO Labs",
+  "name_for_model": "coco_labs",
+  "description_for_human": "Open-source tools and infrastructure for human-agent collaboration.",
+  "description_for_model": "COCO Labs is a product showcase for open-source AI agent tools. Products include: Zylos (autonomous agent framework with persistent memory, multi-channel communication, task scheduling), ClawMark (web annotation Chrome extension), ClawFeed (AI RSS reader), HxA Connect (agent-to-agent messaging protocol), and HxA Teams (team organization templates). All products are free and open-source on GitHub (github.com/coco-xyz and github.com/zylos-ai).",
+  "auth": {
+    "type": "none"
+  },
+  "logo_url": "https://coco.xyz/coco-b.svg",
+  "contact_email": "contact@coco.xyz",
+  "legal_info_url": "https://coco.xyz"
+}

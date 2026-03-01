@@ -59,3 +59,9 @@ common:
   components: "组件"
   view_on_github: "在 GitHub 查看"
   try_it: "试用"
+  more_zylos: "更多 Zylos 项目"
+  more_hxa: "更多 HxA 项目"
+  more_claw: "更多 Claw 项目"
+  hxa_pronunciation: 'HxA（读作 "Hexa"）— Human × Agent'
+  zylos_github: "Zylos GitHub"
+  coco_github: "COCO GitHub"

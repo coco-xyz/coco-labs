@@ -405,6 +405,36 @@ html {
   margin-bottom: 2rem;
 }
 
+/* ===== MORE LINKS ===== */
+.more-link {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgb(var(--color-primary-600));
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.more-link:hover {
+  color: rgb(var(--color-primary-500));
+  text-decoration: underline;
+}
+.dark .more-link {
+  color: rgb(var(--color-primary-400));
+}
+.dark .more-link:hover {
+  color: rgb(var(--color-primary-300));
+}
+
+/* ===== SECTION SUBTITLE ===== */
+.section-subtitle {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgb(var(--color-neutral-500));
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
 /* ===== STATS BAR ===== */
 .stats-bar {
   display: flex;
