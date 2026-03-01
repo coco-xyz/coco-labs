@@ -16,7 +16,9 @@ Building tools that empower humans and AI agents to work together seamlessly.
 
 {{< button href="https://github.com/zylos-ai" target="_blank" >}}More Zylos Projects →{{< /button >}}
 
-## HxA Infrastructure
+## HxA Infrastructure — Human × Agent
+
+*HxA (pronounced "Hexa") — Human × Agent collaboration tools*
 
 | Product | Description | |
 |---------|-------------|---|
