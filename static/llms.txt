@@ -28,7 +28,7 @@ COCO Labs is the product showcase for COCO (coco.xyz), an organization building 
 - Labs: https://labs.coco.xyz
 
 ## Stats
-- 870+ GitHub Stars
+- 880+ GitHub Stars
 - 10+ Open Source Repos
 - 5+ Platforms supported
 - 100% Open Source
