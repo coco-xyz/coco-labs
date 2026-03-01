@@ -7,6 +7,7 @@ home:
   section_featured: "Featured Projects"
   section_claw: "Claw Series — User-Facing Tools"
   section_hxa: "HxA Infrastructure — Agent Collaboration"
+  section_zylos: "Zylos Series — Open Source Framework"
   section_coming_soon: "Coming Soon"
 
 status:
@@ -39,6 +40,9 @@ products:
   hxa_teams_desc: "Team organization templates. Define roles, workflows, and communication patterns for human-agent teams."
   hxa_workspace_name: "HxA Workspace"
   hxa_workspace_desc: "Collaboration platform with identity management, shared knowledge, dashboards, and multi-agent meetings."
+
+  zylos_core_name: "Zylos"
+  zylos_core_desc: "Autonomous AI agent framework. Persistent memory, multi-channel communication, task scheduling, and extensible skill system."
 
 common:
   quick_start: "Quick Start"

@@ -7,6 +7,7 @@ home:
   section_featured: "焦点项目"
   section_claw: "Claw 系列 — 用户工具"
   section_hxa: "HxA 基础设施 — Agent 协作"
+  section_zylos: "Zylos 系列 — 开源框架"
   section_coming_soon: "即将推出"
 
 status:
@@ -39,6 +40,9 @@ products:
   hxa_teams_desc: "团队组织模板。定义角色、工作流和人机协作沟通模式。"
   hxa_workspace_name: "HxA Workspace"
   hxa_workspace_desc: "协作平台——身份管理、共享知识库、仪表盘和多 Agent 会议。"
+
+  zylos_core_name: "Zylos"
+  zylos_core_desc: "自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统。"
 
 common:
   quick_start: "快速开始"

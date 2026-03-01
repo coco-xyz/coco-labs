@@ -1,24 +1,25 @@
 baseURL: https://labs.coco.xyz/
 languageCode: en
 defaultContentLanguage: en
-title: COCO Labs
+title: Labs
 theme: blowfish
 
 languages:
   en:
     languageName: English
     weight: 1
-    title: COCO Labs
+    title: Labs
     params:
       description: "Products and tools by COCO — empowering humans and agents to work together."
   zh-cn:
     languageName: 中文
     weight: 2
-    title: COCO Labs
+    title: Labs
     params:
       description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
 
 params:
+  logo: "images/logo/horizontal-brand-yellow.svg"
   colorScheme: coco
   defaultAppearance: light
   autoSwitchAppearance: true
