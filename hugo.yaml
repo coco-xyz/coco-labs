@@ -14,12 +14,14 @@ languages:
     weight: 1
     title: Labs
     params:
+      displayName: EN
       description: "Products and tools by COCO — empowering humans and agents to work together."
   zh-cn:
     languageName: 中文
     weight: 2
     title: Labs
     params:
+      displayName: 中文
       description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
 
 params:
