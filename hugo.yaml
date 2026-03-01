@@ -4,6 +4,10 @@ defaultContentLanguage: en
 title: Labs
 theme: blowfish
 
+services:
+  googleAnalytics:
+    id: G-YN03GXMK24
+
 languages:
   en:
     languageName: English
