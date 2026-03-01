@@ -25,7 +25,8 @@ languages:
       description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
 
 params:
-  logo: "images/logo/horizontal-brand-yellow.svg"
+  logo: "images/logo/horizontal-black.svg"
+  secondaryLogo: "images/logo/horizontal-brand-yellow.svg"
   colorScheme: coco
   defaultAppearance: light
   autoSwitchAppearance: true
