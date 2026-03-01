@@ -17,9 +17,9 @@ status:
   coming_soon: "即将推出"
 
 stats:
-  products: "产品"
-  tests: "测试通过"
-  prs_merged: "PR 合并"
+  github_stars: "GitHub Stars"
+  repos: "开源仓库"
+  platforms: "平台"
   open_source: "完全开源"
 
 products:
@@ -43,6 +43,15 @@ products:
 
   zylos_core_name: "Zylos"
   zylos_core_desc: "自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统。"
+  zylos_core_featured_desc: "赋予 AI 生命 — 开源 Agent 协作基础设施。持久记忆、多通道通信、任务调度和可扩展技能系统。"
+  zylos_telegram_name: "Zylos Telegram"
+  zylos_telegram_desc: "Telegram 消息组件。私聊、群组、媒体分享和访问控制。"
+  zylos_lark_name: "Zylos Lark"
+  zylos_lark_desc: "飞书/Lark 消息组件。聊天、文档、日历和富文本卡片。"
+  zylos_browser_name: "Zylos Browser"
+  zylos_browser_desc: "浏览器自动化组件。编程式导航、截图和网页交互。"
+  zylos_imagegen_name: "Zylos ImageGen"
+  zylos_imagegen_desc: "基于 Google Gemini 的 AI 图像生成。通过文字指令创建和编辑图片。"
 
 common:
   quick_start: "快速开始"

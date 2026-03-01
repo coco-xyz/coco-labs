@@ -17,9 +17,9 @@ status:
   coming_soon: "Coming Soon"
 
 stats:
-  products: "Products"
-  tests: "Tests Passing"
-  prs_merged: "PRs Merged"
+  github_stars: "GitHub Stars"
+  repos: "Open Source Repos"
+  platforms: "Platforms"
   open_source: "Open Source"
 
 products:
@@ -43,6 +43,15 @@ products:
 
   zylos_core_name: "Zylos"
   zylos_core_desc: "Autonomous AI agent framework. Persistent memory, multi-channel communication, task scheduling, and extensible skill system."
+  zylos_core_featured_desc: "Give your AI a life — open-source agent infrastructure for team collaboration. Persistent memory, multi-channel communication, task scheduling, and extensible skill system."
+  zylos_telegram_name: "Zylos Telegram"
+  zylos_telegram_desc: "Telegram messaging component. DM, groups, media sharing, and access control."
+  zylos_lark_name: "Zylos Lark"
+  zylos_lark_desc: "Lark & Feishu messaging component. Chat, documents, calendars, and rich cards."
+  zylos_browser_name: "Zylos Browser"
+  zylos_browser_desc: "Browser automation component. Navigate, screenshot, interact with web pages programmatically."
+  zylos_imagegen_name: "Zylos ImageGen"
+  zylos_imagegen_desc: "AI image generation using Google Gemini models. Create and edit images with text instructions."
 
 common:
   quick_start: "Quick Start"
