@@ -1,12 +1,109 @@
 <article>
   <!-- Hero Section -->
   <div class="coco-hero">
-    <img src="{{ "images/logo/horizontal-brand-yellow.svg" | relURL }}" alt="COCO" class="coco-hero-logo" width="200">
+    <img src="{{ "images/logo/horizontal-brand-yellow.svg" | relURL }}" alt="COCO Labs" class="coco-hero-logo" width="200">
     <h1>{{ i18n "home.hero_title_1" }}<br>{{ i18n "home.hero_title_2" }}</h1>
     <p class="lead">{{ i18n "home.hero_lead" }}</p>
-    <a href="https://github.com/coco-xyz" target="_blank" class="cta-btn">
-      {{ i18n "home.hero_cta" }} &rarr;
+    <div class="hero-cta-group">
+      <a href="https://github.com/coco-xyz" target="_blank" class="cta-btn">
+        {{ i18n "home.hero_cta" }} &rarr;
+      </a>
+      <a href="https://coco.xyz" target="_blank" class="cta-btn cta-btn-secondary">
+        {{ i18n "home.hero_cta2" }} &rarr;
+      </a>
+    </div>
+  </div>
+
+  <!-- Featured Projects -->
+  <div class="featured-section">
+    <div style="text-align:center;">
+      <p class="section-title section-title-featured">{{ i18n "home.section_featured" }}</p>
+    </div>
+    <div class="featured-grid">
+
+      <a href="{{ "hxa-connect/" | relURL }}" class="featured-card">
+        <div class="featured-card-header">
+          <span class="status-badge status-live">{{ i18n "status.live" }}</span>
+          <span class="featured-star">&#9733;</span>
+        </div>
+        <div class="featured-card-icon">&#128225;</div>
+        <h3>{{ i18n "products.hxa_connect_name" }}</h3>
+        <p class="featured-desc">{{ i18n "products.hxa_connect_featured_desc" }}</p>
+        <div class="featured-card-links">
+          <span class="featured-link">{{ i18n "common.quick_start" }}</span>
+          <span class="featured-link-sep">&middot;</span>
+          <span class="featured-link">GitHub</span>
+        </div>
+      </a>
+
+      <a href="{{ "clawmark/" | relURL }}" class="featured-card">
+        <div class="featured-card-header">
+          <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
+          <span class="featured-star">&#9733;</span>
+        </div>
+        <div class="featured-card-icon">&#9997;&#65039;</div>
+        <h3>{{ i18n "products.clawmark_name" }}</h3>
+        <p class="featured-desc">{{ i18n "products.clawmark_featured_desc" }}</p>
+        <div class="featured-card-links">
+          <span class="featured-link">{{ i18n "common.try_it" }}</span>
+          <span class="featured-link-sep">&middot;</span>
+          <span class="featured-link">GitHub</span>
+          <span class="featured-link-sep">&middot;</span>
+          <span class="featured-link">Chrome Web Store</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- HxA Infrastructure (Priority) -->
+  <div style="text-align:center;">
+    <p class="section-title">{{ i18n "home.section_hxa" }}</p>
+  </div>
+  <div class="product-grid">
+
+    <a href="{{ "hxa-connect/" | relURL }}" class="product-card">
+      <div class="product-card-header">
+        <span class="status-badge status-live">{{ i18n "status.live" }}</span>
+      </div>
+      <div class="card-icon">&#128225;</div>
+      <h3>{{ i18n "products.hxa_connect_name" }}</h3>
+      <p>{{ i18n "products.hxa_connect_desc" }}</p>
+      <div class="card-tags">
+        <span class="card-tag">#agent</span>
+        <span class="card-tag">#messaging</span>
+        <span class="card-tag">#realtime</span>
+      </div>
     </a>
+
+    <a href="{{ "hxa-teams/" | relURL }}" class="product-card">
+      <div class="product-card-header">
+        <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
+      </div>
+      <div class="card-icon">&#129309;</div>
+      <h3>{{ i18n "products.hxa_teams_name" }}</h3>
+      <p>{{ i18n "products.hxa_teams_desc" }}</p>
+      <div class="card-tags">
+        <span class="card-tag">#orchestration</span>
+        <span class="card-tag">#templates</span>
+        <span class="card-tag">#CLI</span>
+      </div>
+    </a>
+
+    <a href="{{ "hxa-workspace/" | relURL }}" class="product-card">
+      <div class="product-card-header">
+        <span class="status-badge status-alpha">{{ i18n "status.alpha" }}</span>
+      </div>
+      <div class="card-icon">&#127759;</div>
+      <h3>{{ i18n "products.hxa_workspace_name" }}</h3>
+      <p>{{ i18n "products.hxa_workspace_desc" }}</p>
+      <div class="card-tags">
+        <span class="card-tag">#identity</span>
+        <span class="card-tag">#knowledge</span>
+        <span class="card-tag">#dashboard</span>
+      </div>
+    </a>
+
   </div>
 
   <!-- Claw Series -->
@@ -16,54 +113,100 @@
   <div class="product-grid">
 
     <a href="{{ "clawmark/" | relURL }}" class="product-card">
+      <div class="product-card-header">
+        <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
+      </div>
       <div class="card-icon">&#9997;&#65039;</div>
       <h3>{{ i18n "products.clawmark_name" }}</h3>
       <p>{{ i18n "products.clawmark_desc" }}</p>
-      <span class="card-badge">{{ i18n "products.clawmark_badge" }}</span>
+      <div class="card-tags">
+        <span class="card-tag">#annotation</span>
+        <span class="card-tag">#chrome</span>
+        <span class="card-tag">#feedback</span>
+      </div>
     </a>
 
     <a href="{{ "clawfeed/" | relURL }}" class="product-card">
-      <div class="card-icon">&#128225;</div>
+      <div class="product-card-header">
+        <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
+      </div>
+      <div class="card-icon">&#128218;</div>
       <h3>{{ i18n "products.clawfeed_name" }}</h3>
       <p>{{ i18n "products.clawfeed_desc" }}</p>
-      <span class="card-badge">{{ i18n "products.clawfeed_badge" }}</span>
+      <div class="card-tags">
+        <span class="card-tag">#RSS</span>
+        <span class="card-tag">#AI</span>
+        <span class="card-tag">#digest</span>
+      </div>
     </a>
 
-    <a href="{{ "clawfi/" | relURL }}" class="product-card">
+    <a href="{{ "clawfi/" | relURL }}" class="product-card product-card-coming-soon">
+      <div class="product-card-header">
+        <span class="status-badge status-coming-soon">{{ i18n "status.coming_soon" }}</span>
+      </div>
       <div class="card-icon">&#128176;</div>
       <h3>{{ i18n "products.clawfi_name" }}</h3>
       <p>{{ i18n "products.clawfi_desc" }}</p>
-      <span class="card-badge">{{ i18n "products.clawfi_badge" }}</span>
+      <div class="card-tags">
+        <span class="card-tag">#DeFi</span>
+        <span class="card-tag">#analytics</span>
+      </div>
     </a>
 
   </div>
 
-  <!-- HxA Infrastructure -->
+  <!-- Coming Soon -->
   <div style="text-align:center;">
-    <p class="section-title">{{ i18n "home.section_hxa" }}</p>
+    <p class="section-title section-title-coming-soon">{{ i18n "home.section_coming_soon" }}</p>
   </div>
-  <div class="product-grid">
+  <div class="product-grid coming-soon-grid">
 
-    <a href="{{ "hxa-connect/" | relURL }}" class="product-card">
-      <div class="card-icon">&#128279;</div>
-      <h3>{{ i18n "products.hxa_connect_name" }}</h3>
-      <p>{{ i18n "products.hxa_connect_desc" }}</p>
-      <span class="card-badge">{{ i18n "products.hxa_connect_badge" }}</span>
-    </a>
+    <div class="product-card product-card-coming-soon">
+      <div class="product-card-header">
+        <span class="status-badge status-coming-soon">{{ i18n "status.coming_soon" }}</span>
+      </div>
+      <div class="card-icon">&#128176;</div>
+      <h3>{{ i18n "products.clawfi_name" }}</h3>
+      <p>{{ i18n "products.clawfi_coming_desc" }}</p>
+    </div>
 
-    <a href="{{ "hxa-teams/" | relURL }}" class="product-card">
-      <div class="card-icon">&#129309;</div>
-      <h3>{{ i18n "products.hxa_teams_name" }}</h3>
-      <p>{{ i18n "products.hxa_teams_desc" }}</p>
-      <span class="card-badge">{{ i18n "products.hxa_teams_badge" }}</span>
-    </a>
+    <div class="product-card product-card-coming-soon">
+      <div class="product-card-header">
+        <span class="status-badge status-coming-soon">{{ i18n "status.coming_soon" }}</span>
+      </div>
+      <div class="card-icon">&#127979;</div>
+      <h3>{{ i18n "products.agent_store_name" }}</h3>
+      <p>{{ i18n "products.agent_store_desc" }}</p>
+    </div>
 
-    <a href="{{ "hxa-workspace/" | relURL }}" class="product-card">
-      <div class="card-icon">&#127759;</div>
-      <h3>{{ i18n "products.hxa_workspace_name" }}</h3>
-      <p>{{ i18n "products.hxa_workspace_desc" }}</p>
-      <span class="card-badge">{{ i18n "products.hxa_workspace_badge" }}</span>
-    </a>
+  </div>
 
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-number">6</span>
+      <span class="stat-label">{{ i18n "stats.products" }}</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">377+</span>
+      <span class="stat-label">{{ i18n "stats.tests" }}</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">16+</span>
+      <span class="stat-label">{{ i18n "stats.prs_merged" }}</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">{{ i18n "stats.open_source" }}</span>
+    </div>
+  </div>
+
+  <!-- Bottom Links -->
+  <div class="bottom-links">
+    <a href="https://github.com/coco-xyz" target="_blank">GitHub &rarr;</a>
+    <a href="https://coco.xyz" target="_blank">coco.xyz &rarr;</a>
   </div>
 </article>
