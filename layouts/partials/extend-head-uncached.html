@@ -5,8 +5,8 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "COCO Labs",
-  "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.description | default "Open-source tools and infrastructure for human-agent collaboration." }}",
+  "url": {{ .Site.BaseURL | jsonify }},
+  "description": {{ .Site.Params.description | default "Open-source tools and infrastructure for human-agent collaboration." | jsonify }},
   "publisher": {
     "@type": "Organization",
     "name": "COCO",
@@ -19,9 +19,9 @@
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "{{ .Title }}",
-  "url": "{{ .Permalink }}",
-  "description": "{{ .Description | default .Summary | plainify | truncate 200 }}",
+  "name": {{ .Title | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "description": {{ .Description | default .Summary | plainify | truncate 200 | jsonify }},
   "applicationCategory": "DeveloperApplication",
   "operatingSystem": "Cross-platform",
   "offers": {

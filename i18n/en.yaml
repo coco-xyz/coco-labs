@@ -59,3 +59,9 @@ common:
   components: "Components"
   view_on_github: "View on GitHub"
   try_it: "Try It"
+  more_zylos: "More Zylos Projects"
+  more_hxa: "More HxA Projects"
+  more_claw: "More Claw Projects"
+  hxa_pronunciation: 'HxA (pronounced "Hexa") — Human × Agent'
+  zylos_github: "Zylos GitHub"
+  coco_github: "COCO GitHub"
