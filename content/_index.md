@@ -7,6 +7,16 @@ description: "Products and tools by COCO"
 Building tools that empower humans and AI agents to work together seamlessly.
 {{< /lead >}}
 
+## Zylos Series — Open Source Framework
+
+| Product | Description | |
+|---------|-------------|---|
+| **[Zylos](zylos-core/)** | Autonomous AI agent framework | {{< button href="https://github.com/zylos-ai/zylos-core" target="_blank" >}}GitHub{{< /button >}} |
+| **Zylos Telegram** | Telegram messaging component | {{< button href="https://github.com/zylos-ai/zylos-telegram" target="_blank" >}}GitHub{{< /button >}} |
+| **Zylos Lark** | Lark & Feishu messaging component | {{< button href="https://github.com/zylos-ai/zylos-lark" target="_blank" >}}GitHub{{< /button >}} |
+| **Zylos Browser** | Browser automation component | {{< button href="https://github.com/zylos-ai/zylos-browser" target="_blank" >}}GitHub{{< /button >}} |
+| **Zylos ImageGen** | AI image generation with Gemini | {{< button href="https://github.com/zylos-ai/zylos-imagegen" target="_blank" >}}GitHub{{< /button >}} |
+
 ## Claw Series
 
 | Product | Description | |
@@ -20,13 +30,3 @@ Building tools that empower humans and AI agents to work together seamlessly.
 |---------|-------------|---|
 | **[HxA Connect](hxa-connect/)** | Agent communication protocol | {{< button href="https://github.com/coco-xyz/hxa-connect" target="_blank" >}}GitHub{{< /button >}} |
 | **[HxA Teams](hxa-teams/)** | Team organization templates | {{< button href="https://github.com/coco-xyz/hxa-teams" target="_blank" >}}GitHub{{< /button >}} |
-
-## Zylos Framework
-
-| Product | Description | |
-|---------|-------------|---|
-| **[Zylos](zylos-core/)** | Autonomous AI agent framework | {{< button href="https://github.com/zylos-ai/zylos-core" target="_blank" >}}GitHub{{< /button >}} |
-| **Zylos Telegram** | Telegram messaging component | {{< button href="https://github.com/zylos-ai/zylos-telegram" target="_blank" >}}GitHub{{< /button >}} |
-| **Zylos Lark** | Lark & Feishu messaging component | {{< button href="https://github.com/zylos-ai/zylos-lark" target="_blank" >}}GitHub{{< /button >}} |
-| **Zylos Browser** | Browser automation component | {{< button href="https://github.com/zylos-ai/zylos-browser" target="_blank" >}}GitHub{{< /button >}} |
-| **Zylos ImageGen** | AI image generation with Gemini | {{< button href="https://github.com/zylos-ai/zylos-imagegen" target="_blank" >}}GitHub{{< /button >}} |
