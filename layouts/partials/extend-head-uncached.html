@@ -1,0 +1,39 @@
+<!-- Agent-Friendly: Per-page JSON-LD -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "COCO Labs",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description | default "Open-source tools and infrastructure for human-agent collaboration." }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "COCO",
+    "url": "https://coco.xyz"
+  }
+}
+</script>
+{{ else if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "description": "{{ .Description | default .Summary | plainify | truncate 200 }}",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Cross-platform",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "COCO",
+    "url": "https://coco.xyz"
+  }
+}
+</script>
+{{ end }}

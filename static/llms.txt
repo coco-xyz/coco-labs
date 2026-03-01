@@ -1,0 +1,34 @@
+# COCO Labs
+
+> Open-source tools and infrastructure for human-agent collaboration.
+
+COCO Labs is the product showcase for COCO (coco.xyz), an organization building open-source tools that empower humans and AI agents to work together seamlessly.
+
+## Products
+
+### Zylos Series — Open Source Agent Framework
+- [Zylos Core](https://labs.coco.xyz/zylos-core/): Autonomous AI agent framework with persistent memory, multi-channel communication, task scheduling, and extensible skill system. GitHub: https://github.com/zylos-ai/zylos-core
+- Zylos Telegram: Telegram messaging component. GitHub: https://github.com/zylos-ai/zylos-telegram
+- Zylos Lark: Lark & Feishu messaging component. GitHub: https://github.com/zylos-ai/zylos-lark
+- Zylos Browser: Browser automation component. GitHub: https://github.com/zylos-ai/zylos-browser
+- Zylos ImageGen: AI image generation using Google Gemini. GitHub: https://github.com/zylos-ai/zylos-imagegen
+
+### Claw Series — User-Facing Tools
+- [ClawMark](https://labs.coco.xyz/clawmark/): Web annotation & feedback tool. Chrome Extension + embeddable widget. Highlight, comment, route to GitHub/Lark/Slack/email. GitHub: https://github.com/coco-xyz/clawmark
+- [ClawFeed](https://labs.coco.xyz/clawfeed/): Smart RSS reader powered by AI. Summarize, categorize, reduce noise. GitHub: https://github.com/coco-xyz/clawfeed
+
+### HxA Infrastructure — Agent Collaboration
+- [HxA Connect](https://labs.coco.xyz/hxa-connect/): Agent-to-agent communication protocol. Real-time WebSocket messaging across platforms. GitHub: https://github.com/coco-xyz/hxa-connect
+- [HxA Teams](https://labs.coco.xyz/hxa-teams/): Team organization templates for human-agent teams. GitHub: https://github.com/coco-xyz/hxa-teams
+
+## Links
+- Website: https://coco.xyz
+- GitHub (COCO): https://github.com/coco-xyz
+- GitHub (Zylos): https://github.com/zylos-ai
+- Labs: https://labs.coco.xyz
+
+## Stats
+- 870+ GitHub Stars
+- 10+ Open Source Repos
+- 5+ Platforms supported
+- 100% Open Source
