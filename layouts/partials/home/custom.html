@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <!-- Zylos Series (Primary) -->
+  <!-- Zylos Series (show 2 items + more) -->
   <div style="text-align:center;">
     <p class="section-title">{{ i18n "home.section_zylos" }}</p>
   </div>
@@ -104,47 +104,49 @@
       </div>
     </a>
 
-    <a href="https://github.com/zylos-ai/zylos-lark" target="_blank" class="product-card">
+  </div>
+  <div style="text-align:center; margin-top: 0.5rem; margin-bottom: 2rem;">
+    <a href="https://github.com/zylos-ai" target="_blank" class="more-link">More Zylos Projects &rarr;</a>
+  </div>
+
+  <!-- HxA Infrastructure -->
+  <div style="text-align:center;">
+    <p class="section-title">{{ i18n "home.section_hxa" }}</p>
+    <p class="section-subtitle">HxA (pronounced "Hexa") — Human × Agent</p>
+  </div>
+  <div class="product-grid">
+
+    <a href="{{ "hxa-connect/" | relURL }}" class="product-card">
       <div class="product-card-header">
         <span class="status-badge status-live">{{ i18n "status.live" }}</span>
       </div>
-      <div class="card-icon">&#128038;</div>
-      <h3>{{ i18n "products.zylos_lark_name" }}</h3>
-      <p>{{ i18n "products.zylos_lark_desc" }}</p>
+      <div class="card-icon">&#128225;</div>
+      <h3>{{ i18n "products.hxa_connect_name" }}</h3>
+      <p>{{ i18n "products.hxa_connect_desc" }}</p>
       <div class="card-tags">
-        <span class="card-tag">#lark</span>
-        <span class="card-tag">#feishu</span>
+        <span class="card-tag">#agent</span>
         <span class="card-tag">#messaging</span>
+        <span class="card-tag">#realtime</span>
       </div>
     </a>
 
-    <a href="https://github.com/zylos-ai/zylos-browser" target="_blank" class="product-card">
+    <a href="{{ "hxa-teams/" | relURL }}" class="product-card">
       <div class="product-card-header">
         <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
       </div>
-      <div class="card-icon">&#127760;</div>
-      <h3>{{ i18n "products.zylos_browser_name" }}</h3>
-      <p>{{ i18n "products.zylos_browser_desc" }}</p>
+      <div class="card-icon">&#129309;</div>
+      <h3>{{ i18n "products.hxa_teams_name" }}</h3>
+      <p>{{ i18n "products.hxa_teams_desc" }}</p>
       <div class="card-tags">
-        <span class="card-tag">#browser</span>
-        <span class="card-tag">#automation</span>
+        <span class="card-tag">#orchestration</span>
+        <span class="card-tag">#templates</span>
+        <span class="card-tag">#CLI</span>
       </div>
     </a>
 
-    <a href="https://github.com/zylos-ai/zylos-imagegen" target="_blank" class="product-card">
-      <div class="product-card-header">
-        <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
-      </div>
-      <div class="card-icon">&#127912;</div>
-      <h3>{{ i18n "products.zylos_imagegen_name" }}</h3>
-      <p>{{ i18n "products.zylos_imagegen_desc" }}</p>
-      <div class="card-tags">
-        <span class="card-tag">#image</span>
-        <span class="card-tag">#gemini</span>
-        <span class="card-tag">#AI</span>
-      </div>
-    </a>
-
+  </div>
+  <div style="text-align:center; margin-top: 0.5rem; margin-bottom: 2rem;">
+    <a href="https://github.com/coco-xyz" target="_blank" class="more-link">More HxA Projects &rarr;</a>
   </div>
 
   <!-- Claw Series -->
@@ -182,41 +184,8 @@
     </a>
 
   </div>
-
-  <!-- HxA Infrastructure -->
-  <div style="text-align:center;">
-    <p class="section-title">{{ i18n "home.section_hxa" }}</p>
-  </div>
-  <div class="product-grid">
-
-    <a href="{{ "hxa-connect/" | relURL }}" class="product-card">
-      <div class="product-card-header">
-        <span class="status-badge status-live">{{ i18n "status.live" }}</span>
-      </div>
-      <div class="card-icon">&#128225;</div>
-      <h3>{{ i18n "products.hxa_connect_name" }}</h3>
-      <p>{{ i18n "products.hxa_connect_desc" }}</p>
-      <div class="card-tags">
-        <span class="card-tag">#agent</span>
-        <span class="card-tag">#messaging</span>
-        <span class="card-tag">#realtime</span>
-      </div>
-    </a>
-
-    <a href="{{ "hxa-teams/" | relURL }}" class="product-card">
-      <div class="product-card-header">
-        <span class="status-badge status-beta">{{ i18n "status.beta" }}</span>
-      </div>
-      <div class="card-icon">&#129309;</div>
-      <h3>{{ i18n "products.hxa_teams_name" }}</h3>
-      <p>{{ i18n "products.hxa_teams_desc" }}</p>
-      <div class="card-tags">
-        <span class="card-tag">#orchestration</span>
-        <span class="card-tag">#templates</span>
-        <span class="card-tag">#CLI</span>
-      </div>
-    </a>
-
+  <div style="text-align:center; margin-top: 0.5rem; margin-bottom: 2rem;">
+    <a href="https://github.com/coco-xyz" target="_blank" class="more-link">More Claw Projects &rarr;</a>
   </div>
 
   <!-- Stats Bar -->
