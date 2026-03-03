@@ -53,9 +53,23 @@ products:
   zylos_imagegen_name: "Zylos ImageGen"
   zylos_imagegen_desc: "AI image generation using Google Gemini models. Create and edit images with text instructions."
 
+footer:
+  tagline: "AI Teams Platform"
+  products: "Products"
+  resources: "Resources"
+  company: "Company"
+  docs: "Docs"
+  contact: "Contact"
+
 common:
   quick_start: "Quick Start"
   key_features: "Key Features"
   components: "Components"
   view_on_github: "View on GitHub"
   try_it: "Try It"
+  more_zylos: "More Zylos Projects"
+  more_hxa: "More HxA Projects"
+  more_claw: "More Claw Projects"
+  hxa_pronunciation: 'HxA (pronounced "Hexa") — Human × Agent'
+  zylos_github: "Zylos GitHub"
+  coco_github: "COCO GitHub"

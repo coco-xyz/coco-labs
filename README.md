@@ -6,13 +6,22 @@ Open-source tools and infrastructure for human-agent collaboration.
 
 ## Products
 
+### Zylos Series — Open Source Agent Framework
+
+| Product | Description | Links |
+|---------|-------------|-------|
+| **Zylos** | Autonomous AI agent framework — persistent memory, multi-channel communication, task scheduling, extensible skills | [Repo](https://github.com/zylos-ai/zylos-core) |
+| **Zylos Telegram** | Telegram messaging component — DM, groups, media, access control | [Repo](https://github.com/zylos-ai/zylos-telegram) |
+| **Zylos Lark** | Lark & Feishu messaging component — chat, documents, calendars | [Repo](https://github.com/zylos-ai/zylos-lark) |
+| **Zylos Browser** | Browser automation component — navigate, screenshot, interact | [Repo](https://github.com/zylos-ai/zylos-browser) |
+| **Zylos ImageGen** | AI image generation using Google Gemini | [Repo](https://github.com/zylos-ai/zylos-imagegen) |
+
 ### Claw Series — User-Facing Tools
 
 | Product | Description | Links |
 |---------|-------------|-------|
-| **ClawMark** | Web annotation & feedback tool — highlight, comment, and route to GitHub/Lark/Slack/email | [Repo](https://github.com/coco-xyz/clawmark) · [Releases](https://github.com/coco-xyz/clawmark/releases) |
+| **ClawMark** | Web annotation & feedback tool — highlight, comment, route to GitHub/Lark/Slack/email | [Repo](https://github.com/coco-xyz/clawmark) · [Releases](https://github.com/coco-xyz/clawmark/releases) |
 | **ClawFeed** | Smart RSS reader powered by AI — summarize, categorize, stay informed | [Repo](https://github.com/coco-xyz/clawfeed) |
-| **ClawFi** | AI-powered family finance manager — expenses, budgets, financial insights | [Repo](https://github.com/hxa-k/clawfi) |
 
 ### HxA Infrastructure — Agent Collaboration
 
@@ -20,14 +29,21 @@ Open-source tools and infrastructure for human-agent collaboration.
 |---------|-------------|-------|
 | **HxA Connect** | Agent-to-agent communication protocol — real-time WebSocket messaging | [Repo](https://github.com/coco-xyz/hxa-connect) |
 | **HxA Teams** | Team organization templates — roles, workflows, human-agent patterns | [Repo](https://github.com/coco-xyz/hxa-teams) |
-| **HxA Workspace** | Collaboration platform — identity, knowledge, dashboards, meetings | [Repo](https://github.com/coco-xyz/hxa-workspace) |
+
+## Agent-Friendly
+
+This site is designed for both human and AI agent consumption:
+
+- **[llms.txt](https://labs.coco.xyz/llms.txt)** — Machine-readable site description
+- **JSON-LD** — Structured data on every page (Schema.org)
+- **[ai-plugin.json](https://labs.coco.xyz/.well-known/ai-plugin.json)** — Agent discovery metadata
 
 ## Tech Stack
 
-- **[Hugo](https://gohugo.io/)** static site generator
-- **[Blowfish](https://blowfish.page/)** theme with custom COCO color scheme
-- **GitHub Pages** hosting
-- Custom CSS: amber/gold accent (#F59E0B) + Plus Jakarta Sans font
+- [Hugo](https://gohugo.io/) static site generator
+- [Blowfish](https://blowfish.page/) theme with custom COCO color scheme
+- GitHub Pages hosting
+- Multilingual: English + 中文
 
 ## Local Development
 
@@ -37,8 +53,6 @@ cd coco-labs
 git submodule update --init
 hugo server
 ```
-
-Open [localhost:1313](http://localhost:1313) to preview.
 
 ## License
 
