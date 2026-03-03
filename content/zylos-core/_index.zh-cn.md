@@ -12,7 +12,7 @@ layout: "product"
     开源自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统——构建独立运行的 Agent 所需的一切。
   </p>
   <div class="hero-actions">
-    <a href="https://github.com/coco-xyz/zylos" target="_blank" class="btn-primary">在 GitHub 查看 &rarr;</a>
+    <a href="https://github.com/zylos-ai/zylos-core" target="_blank" class="btn-primary">在 GitHub 查看 &rarr;</a>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ layout: "product"
   <h2>快速开始</h2>
 
 ```bash
-git clone https://github.com/coco-xyz/zylos.git
+git clone https://github.com/zylos-ai/zylos-core.git
 cd zylos
 cp .env.example .env
 # 配置你的环境
@@ -55,6 +55,6 @@ cp .env.example .env
 </div>
 
 <div class="bottom-links">
-  <a href="https://github.com/coco-xyz/zylos" target="_blank">GitHub &nearr;</a>
-  <a href="https://github.com/coco-xyz" target="_blank">COCO Org &nearr;</a>
+  <a href="https://github.com/zylos-ai/zylos-core" target="_blank">GitHub &nearr;</a>
+  <a href="https://github.com/zylos-ai" target="_blank">Zylos Org &nearr;</a>
 </div>
