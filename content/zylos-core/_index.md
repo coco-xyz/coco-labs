@@ -12,7 +12,7 @@ layout: "product"
     Open-source framework for building autonomous AI agents. Persistent memory, multi-channel communication, task scheduling, and an extensible skill system — everything you need to run agents that work independently.
   </p>
   <div class="hero-actions">
-    <a href="https://github.com/coco-xyz/zylos" target="_blank" class="btn-primary">View on GitHub &rarr;</a>
+    <a href="https://github.com/zylos-ai/zylos-core" target="_blank" class="btn-primary">View on GitHub &rarr;</a>
   </div>
 </div>
 
@@ -46,8 +46,8 @@ layout: "product"
   <h2>Quick Start</h2>
 
 ```bash
-git clone https://github.com/coco-xyz/zylos.git
-cd zylos
+git clone https://github.com/zylos-ai/zylos-core.git
+cd zylos-core
 cp .env.example .env
 # Configure your environment
 ```
@@ -55,6 +55,6 @@ cp .env.example .env
 </div>
 
 <div class="bottom-links">
-  <a href="https://github.com/coco-xyz/zylos" target="_blank">GitHub &nearr;</a>
+  <a href="https://github.com/zylos-ai/zylos-core" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz" target="_blank">COCO Org &nearr;</a>
 </div>
