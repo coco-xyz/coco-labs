@@ -53,6 +53,14 @@ products:
   zylos_imagegen_name: "Zylos ImageGen"
   zylos_imagegen_desc: "AI image generation using Google Gemini models. Create and edit images with text instructions."
 
+footer:
+  tagline: "AI Teams Platform"
+  products: "Products"
+  resources: "Resources"
+  company: "Company"
+  docs: "Docs"
+  contact: "Contact"
+
 common:
   quick_start: "Quick Start"
   key_features: "Key Features"
