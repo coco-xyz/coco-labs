@@ -43,9 +43,9 @@ layout: "product"
   </div>
 </div>
 
-<div class="features-section">
-  <h2>What's New in v0.6</h2>
-  <div class="features-grid">
+<div class="features-section" id="cm-whats-new">
+  <h2 id="cm-wn-title">What's New in v0.6</h2>
+  <div id="cm-wn-content" class="features-grid">
     <div class="feature-card">
       <div class="feature-icon">&#128200;</div>
       <h3>Dashboard</h3>
@@ -118,13 +118,55 @@ npm start
     .then(function(d) {
       if (!d.tag_name) return;
       var v = d.tag_name.replace(/^v/, '');
+
+      // Update badge version
       document.getElementById('cm-version').textContent = 'v' + v;
+
+      // Update What's New title
+      var wnTitle = document.getElementById('cm-wn-title');
+      if (wnTitle) wnTitle.textContent = "What's New in " + d.tag_name;
+
+      // Parse What's New section from release body
+      var body = (d.body || '').replace(/\r\n/g, '\n');
+      var wnMatch = body.match(/##\s+What's New([\s\S]*?)(?=\n##|$)/);
+      if (wnMatch && wnMatch[1].trim()) {
+        var wnContent = document.getElementById('cm-wn-content');
+        if (wnContent) {
+          var sections = wnMatch[1].trim().split(/\n###\s+/).filter(Boolean);
+          var html = '';
+          // Icon map for common section names
+          var icons = {
+            'dashboard': '&#128200;', 'welcome': '&#127881;', 'badge': '&#128178;',
+            'ux': '&#127912;', 'polish': '&#10024;', 'annotation': '&#128204;',
+            'site': '&#127760;', 'sign': '&#128274;', 'auth': '&#128274;',
+            'error': '&#9889;', 'fix': '&#128295;', 'perf': '&#9889;',
+            'maintenance': '&#128296;', 'default': '&#11088;'
+          };
+          sections.forEach(function(sec) {
+            var lines = sec.split('\n');
+            var title = lines[0].trim();
+            // Extract phase/short name: "Phase 1.5 — Foo" → "Foo", else use title
+            var shortTitle = title.replace(/^Phase [\d.]+\s*[—\-–]\s*/, '').trim() || title;
+            var items = lines.slice(1).filter(function(l){ return l.trim().startsWith('-'); })
+              .slice(0, 3)
+              .map(function(l){ return l.replace(/^\s*-\s*/, ''); });
+            var desc = items.length ? items.join(' · ') : lines.slice(1).filter(Boolean)[0] || '';
+            // Pick icon
+            var iconKey = Object.keys(icons).find(function(k){ return title.toLowerCase().includes(k); }) || 'default';
+            var icon = icons[iconKey];
+            html += '<div class="feature-card"><div class="feature-icon">' + icon + '</div><h3>' + shortTitle + '</h3><p>' + desc + '</p></div>';
+          });
+          if (html) wnContent.innerHTML = html;
+        }
+      }
+
+      // Show Latest Release section
       var sec = document.getElementById('cm-release');
       if (sec) {
         sec.style.display = '';
         document.getElementById('cm-rel-name').textContent = d.name || d.tag_name;
         document.getElementById('cm-rel-date').textContent = new Date(d.published_at).toLocaleDateString('en-US', {year:'numeric',month:'short',day:'numeric'});
-        document.getElementById('cm-rel-body').textContent = (d.body || '').replace(/\r\n/g, '\n');
+        document.getElementById('cm-rel-body').textContent = body;
         document.getElementById('cm-rel-link').href = d.html_url;
       }
     })
