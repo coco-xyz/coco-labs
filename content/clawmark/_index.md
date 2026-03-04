@@ -44,27 +44,27 @@ layout: "product"
 </div>
 
 <div class="features-section" id="cm-whats-new">
-  <h2 id="cm-wn-title">What's New in v0.6</h2>
+  <h2 id="cm-wn-title">What's New in v0.6.4</h2>
   <div id="cm-wn-content" class="features-grid">
     <div class="feature-card">
-      <div class="feature-icon">&#128200;</div>
-      <h3>Dashboard</h3>
-      <p>Full configuration center with 6 tabs — Overview, Account, Connection, Delivery Rules, Site Management, and About.</p>
-    </div>
-    <div class="feature-card">
       <div class="feature-icon">&#128274;</div>
-      <h3>Google Sign-In</h3>
-      <p>One-click Google OAuth authentication. Your identity syncs with annotations automatically.</p>
+      <h3>Data Isolation</h3>
+      <p>Per-user app_id enforcement with ownership checks. Your annotations are fully isolated from other users.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">&#128204;</div>
-      <h3>Annotation Overlay</h3>
-      <p>Draggable, resizable annotation window with delivery status display and custom tag support.</p>
+      <h3>Version Check</h3>
+      <p>Automatic update banner in popup when a new version is available on the Chrome Web Store.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#128200;</div>
+      <h3>Dashboard Overview</h3>
+      <p>Global stats with clickable drill-down — see annotation counts, recent activity, and connection status at a glance.</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">&#127760;</div>
-      <h3>Site Management</h3>
-      <p>Blacklist or whitelist mode — control exactly which sites ClawMark is active on.</p>
+      <h3>Standalone Dashboard</h3>
+      <p>A dedicated web dashboard for browsing and managing all your annotations without opening the extension.</p>
     </div>
   </div>
 </div>
@@ -173,7 +173,7 @@ npm start
       }
     })
     .catch(function() {
-      document.getElementById('cm-version').textContent = 'v0.6.3';
+      document.getElementById('cm-version').textContent = 'v0.6.4';
     });
 })();
 </script>

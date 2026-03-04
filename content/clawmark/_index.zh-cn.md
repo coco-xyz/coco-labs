@@ -44,27 +44,27 @@ layout: "product"
 </div>
 
 <div class="features-section" id="cm-whats-new">
-  <h2 id="cm-wn-title">v0.6 新功能</h2>
+  <h2 id="cm-wn-title">v0.6.4 新功能</h2>
   <div id="cm-wn-content" class="features-grid">
     <div class="feature-card">
-      <div class="feature-icon">&#128200;</div>
-      <h3>控制台</h3>
-      <p>完整的配置中心，6 个标签页：概览、账户、连接、分发规则、站点管理和关于。</p>
-    </div>
-    <div class="feature-card">
       <div class="feature-icon">&#128274;</div>
-      <h3>Google 登录</h3>
-      <p>一键 Google OAuth 认证，身份信息自动与标注同步。</p>
+      <h3>数据隔离</h3>
+      <p>基于 app_id 的用户数据隔离，完整的所有权校验，你的标注不会与他人混淆。</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">&#128204;</div>
-      <h3>标注覆盖层</h3>
-      <p>可拖拽、可调整大小的标注窗口，支持分发状态显示和自定义标签。</p>
+      <h3>版本检测</h3>
+      <p>Popup 内置更新提示 banner，有新版本自动提醒，一键跳转 Chrome 商店更新。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#128200;</div>
+      <h3>仪表盘概览</h3>
+      <p>全局统计数据可点击下钻 — 一眼看清标注数量、最近活动和连接状态。</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">&#127760;</div>
-      <h3>站点管理</h3>
-      <p>黑名单或白名单模式 — 精确控制 ClawMark 在哪些网站上启用。</p>
+      <h3>独立 Dashboard</h3>
+      <p>专属 Web 管理界面，无需打开扩展即可浏览和管理所有标注。</p>
     </div>
   </div>
 </div>
@@ -169,7 +169,7 @@ npm start
       }
     })
     .catch(function() {
-      document.getElementById('cm-version').textContent = 'v0.6.3';
+      document.getElementById('cm-version').textContent = 'v0.6.4';
     });
 })();
 </script>
