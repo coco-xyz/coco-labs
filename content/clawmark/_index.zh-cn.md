@@ -6,7 +6,7 @@ layout: "product"
 ---
 
 <div class="product-hero">
-  <span class="badge">浏览器扩展 + 可嵌入 Widget</span>
+  <span class="badge">浏览器扩展 + 可嵌入 Widget &middot; v0.6.2</span>
   <h1>ClawMark</h1>
   <p class="tagline">
     标注任意网页。高亮文本、添加评论，一键将反馈发送到 GitHub Issues、Lark、Telegram、Slack 或邮件。
@@ -33,12 +33,38 @@ layout: "product"
     <div class="feature-card">
       <div class="feature-icon">&#128640;</div>
       <h3>灵活路由</h3>
-      <p>将标注发送到 GitHub、Lark、Telegram、Slack、邮件或自定义 Webhook。去中心化的规则路由。</p>
+      <p>将标注发送到 GitHub、Lark、Telegram、Slack、邮件、Linear、Jira、HxA Connect 或自定义 Webhook。支持优先级规则路由。</p>
     </div>
     <div class="feature-card">
       <div class="feature-icon">&#128275;</div>
       <h3>开源</h3>
       <p>可自托管服务端，也可使用官方托管服务。完全掌控你的数据和集成。</p>
+    </div>
+  </div>
+</div>
+
+<div class="features-section">
+  <h2>v0.6 新功能</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">&#128200;</div>
+      <h3>控制台</h3>
+      <p>完整的配置中心，6 个功能标签页——概览、账户、连接、分发规则、站点管理、关于。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#128274;</div>
+      <h3>Google 登录</h3>
+      <p>一键 Google OAuth 认证，标注自动关联你的身份信息。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#128204;</div>
+      <h3>标注悬浮窗</h3>
+      <p>可拖拽、可调整大小的标注窗口，支持分发状态显示和自定义标签。</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">&#127760;</div>
+      <h3>站点管理</h3>
+      <p>黑名单或白名单模式——精确控制 ClawMark 在哪些网站上启用。</p>
     </div>
   </div>
 </div>
@@ -68,4 +94,5 @@ npm start
   <a href="https://github.com/coco-xyz/clawmark" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank">Releases &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/issues" target="_blank">Issues &nearr;</a>
+  <a href="/clawmark/privacy/" target="_blank">隐私政策 &nearr;</a>
 </div>
