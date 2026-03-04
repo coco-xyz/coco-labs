@@ -6,7 +6,7 @@ layout: "product"
 ---
 
 <div class="product-hero">
-  <span class="badge">浏览器扩展 + 可嵌入 Widget &middot; v0.6.2</span>
+  <span class="badge" id="cm-badge">浏览器扩展 + 可嵌入 Widget &middot; <span id="cm-version">加载中...</span></span>
   <h1>ClawMark</h1>
   <p class="tagline">
     标注任意网页。高亮文本、添加评论，一键将反馈发送到 GitHub Issues、Lark、Telegram、Slack 或邮件。
@@ -90,9 +90,46 @@ npm start
 
 </div>
 
+<div id="cm-release" class="features-section" style="display:none;">
+  <h2>最新版本</h2>
+  <div style="background:var(--tw-prose-pre-bg,#1e1e2e);border-radius:8px;padding:1.5rem;color:var(--tw-prose-body,#cdd6f4);">
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;">
+      <strong id="cm-rel-name" style="font-size:1.2rem;"></strong>
+      <span id="cm-rel-date" style="opacity:0.6;font-size:0.85rem;"></span>
+    </div>
+    <div id="cm-rel-body" style="white-space:pre-wrap;font-size:0.9rem;line-height:1.6;max-height:300px;overflow-y:auto;"></div>
+    <div style="margin-top:1rem;">
+      <a id="cm-rel-link" href="#" target="_blank" style="color:#89b4fa;">在 GitHub 查看 &rarr;</a>
+    </div>
+  </div>
+</div>
+
 <div class="bottom-links">
   <a href="https://github.com/coco-xyz/clawmark" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank">Releases &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/issues" target="_blank">Issues &nearr;</a>
   <a href="/clawmark/privacy/" target="_blank">隐私政策 &nearr;</a>
 </div>
+
+<script>
+(function() {
+  fetch('https://api.github.com/repos/coco-xyz/clawmark/releases/latest')
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (!d.tag_name) return;
+      var v = d.tag_name.replace(/^v/, '');
+      document.getElementById('cm-version').textContent = 'v' + v;
+      var sec = document.getElementById('cm-release');
+      if (sec) {
+        sec.style.display = '';
+        document.getElementById('cm-rel-name').textContent = d.name || d.tag_name;
+        document.getElementById('cm-rel-date').textContent = new Date(d.published_at).toLocaleDateString('zh-CN', {year:'numeric',month:'long',day:'numeric'});
+        document.getElementById('cm-rel-body').textContent = (d.body || '').replace(/\r\n/g, '\n');
+        document.getElementById('cm-rel-link').href = d.html_url;
+      }
+    })
+    .catch(function() {
+      document.getElementById('cm-version').textContent = 'v0.6.3';
+    });
+})();
+</script>
