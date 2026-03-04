@@ -68,7 +68,6 @@ layout: "product"
     </div>
   </div>
 </div>
-</div>
 
 <div class="quickstart-section">
   <h2>快速开始</h2>
@@ -135,12 +134,14 @@ npm start
         if (wnContent) {
           var sections = wnMatch[1].trim().split(/\n###\s+/).filter(Boolean);
           var html = '';
+          // P1-1: XSS escape for content from GitHub API
+          function esc(s) { var d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
           var icons = {
             'dashboard': '&#128200;', 'welcome': '&#127881;', 'badge': '&#128178;',
             'ux': '&#127912;', 'polish': '&#10024;', 'annotation': '&#128204;',
             'site': '&#127760;', 'sign': '&#128274;', 'auth': '&#128274;',
-            'error': '&#9889;', 'fix': '&#128295;', 'maintenance': '&#128296;',
-            'default': '&#11088;'
+            'error': '&#9889;', 'fix': '&#128295;', 'perf': '&#9889;',
+            'maintenance': '&#128296;', 'default': '&#11088;'
           };
           sections.forEach(function(sec) {
             var lines = sec.split('\n');
@@ -151,7 +152,7 @@ npm start
               .map(function(l){ return l.replace(/^\s*-\s*/, ''); });
             var desc = items.length ? items.join(' · ') : lines.slice(1).filter(Boolean)[0] || '';
             var iconKey = Object.keys(icons).find(function(k){ return title.toLowerCase().includes(k); }) || 'default';
-            html += '<div class="feature-card"><div class="feature-icon">' + icons[iconKey] + '</div><h3>' + shortTitle + '</h3><p>' + desc + '</p></div>';
+            html += '<div class="feature-card"><div class="feature-icon">' + icons[iconKey] + '</div><h3>' + esc(shortTitle) + '</h3><p>' + esc(desc) + '</p></div>';
           });
           if (html) wnContent.innerHTML = html;
         }

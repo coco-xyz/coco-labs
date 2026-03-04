@@ -135,6 +135,8 @@ npm start
           var sections = wnMatch[1].trim().split(/\n###\s+/).filter(Boolean);
           var html = '';
           // Icon map for common section names
+          // P1-1: XSS escape for content from GitHub API
+          function esc(s) { var d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
           var icons = {
             'dashboard': '&#128200;', 'welcome': '&#127881;', 'badge': '&#128178;',
             'ux': '&#127912;', 'polish': '&#10024;', 'annotation': '&#128204;',
@@ -154,7 +156,7 @@ npm start
             // Pick icon
             var iconKey = Object.keys(icons).find(function(k){ return title.toLowerCase().includes(k); }) || 'default';
             var icon = icons[iconKey];
-            html += '<div class="feature-card"><div class="feature-icon">' + icon + '</div><h3>' + shortTitle + '</h3><p>' + desc + '</p></div>';
+            html += '<div class="feature-card"><div class="feature-icon">' + icon + '</div><h3>' + esc(shortTitle) + '</h3><p>' + esc(desc) + '</p></div>';
           });
           if (html) wnContent.innerHTML = html;
         }
