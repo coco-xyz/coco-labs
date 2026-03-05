@@ -1,7 +1,7 @@
 baseURL: https://labs.coco.xyz/
 languageCode: en
 defaultContentLanguage: en
-title: "COCO - Labs"
+title: "COCO - AI Teams Platform"
 theme: blowfish
 
 services:
@@ -12,7 +12,7 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: "COCO - Labs"
+    title: "COCO - AI Teams Platform"
     params:
       displayName: EN
       description: "Products and tools by COCO — empowering humans and agents to work together."
@@ -33,7 +33,7 @@ languages:
   zh-cn:
     languageName: 中文
     weight: 2
-    title: "COCO - Labs"
+    title: "COCO - AI Teams Platform"
     params:
       displayName: 中文
       description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
