@@ -114,6 +114,7 @@ npm start
   <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank">Dashboard &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank">Releases &nearr;</a>
+  <a href="https://github.com/coco-xyz/clawmark/issues" target="_blank">Issues &nearr;</a>
   <a href="/clawmark/privacy/" target="_blank">隐私政策 &nearr;</a>
 </div>
 
