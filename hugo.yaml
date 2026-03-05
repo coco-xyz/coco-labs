@@ -16,6 +16,20 @@ languages:
     params:
       displayName: EN
       description: "Products and tools by COCO — empowering humans and agents to work together."
+    menus:
+      main:
+        - name: COCO
+          url: https://coco.xyz/
+          weight: 10
+        - name: Use Cases
+          url: https://docs.coco.xyz/use-cases/
+          weight: 20
+        - name: Pricing
+          url: https://coco.xyz/#pricing
+          weight: 30
+        - name: Docs
+          url: https://docs.coco.xyz/
+          weight: 40
   zh-cn:
     languageName: 中文
     weight: 2
@@ -23,21 +37,20 @@ languages:
     params:
       displayName: 中文
       description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
-
-menus:
-  main:
-    - name: COCO
-      url: https://coco.xyz/
-      weight: 10
-    - name: Use Cases
-      url: https://docs.coco.xyz/use-cases/
-      weight: 20
-    - name: Pricing
-      url: https://coco.xyz/#pricing
-      weight: 30
-    - name: Docs
-      url: https://docs.coco.xyz/
-      weight: 40
+    menus:
+      main:
+        - name: COCO
+          url: https://coco.xyz/
+          weight: 10
+        - name: 用例
+          url: https://docs.coco.xyz/use-cases/
+          weight: 20
+        - name: 价格
+          url: https://coco.xyz/#pricing
+          weight: 30
+        - name: 文档
+          url: https://docs.coco.xyz/
+          weight: 40
 
 params:
   highlightCurrentMenuArea: true
