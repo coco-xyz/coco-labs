@@ -248,6 +248,22 @@ html {
   text-decoration: none;
 }
 
+.featured-card-spotlight {
+  border-color: rgb(var(--color-primary-500));
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.12);
+  transform: scale(1.04);
+}
+
+.dark .featured-card-spotlight {
+  border-color: rgb(var(--color-primary-400));
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.2);
+}
+
+.featured-card-spotlight:hover {
+  box-shadow: 0 8px 28px rgba(245, 158, 11, 0.25);
+  transform: scale(1.04) translateY(-2px);
+}
+
 .featured-card-header {
   display: flex;
   justify-content: space-between;
