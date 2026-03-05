@@ -72,12 +72,38 @@ layout: "product"
 <div class="quickstart-section">
   <h2>Quick Start</h2>
 
-### Chrome Extension
+### Install
 
 1. Download the latest release from [GitHub Releases](https://github.com/coco-xyz/clawmark/releases)
 2. Open `chrome://extensions/`, enable **Developer Mode**
 3. Click **Load unpacked** and select the extension folder
-4. Navigate to any page and start annotating
+4. Click the ClawMark icon in the toolbar and **Sign in with Google**
+
+### How It Works
+
+Select any text on a webpage — a floating toolbar appears. Click **Comment** or **Issue** to create an annotation. ClawMark automatically routes it to the right place based on your delivery rules.
+
+```
+  You annotate         ClawMark Server        Delivery Targets
+┌─────────────┐     ┌────────────────┐     ┌──────────────────┐
+│  Select text │────▶│ Collect & Store │────▶│ GitHub Issues    │
+│  Add comment │     │ Resolve rules  │     │ GitLab Issues    │
+│  Submit      │     │ Dispatch       │     │ Lark / Telegram  │
+└─────────────┘     └────────────────┘     │ Slack / Email    │
+                                            │ Webhook          │
+                                            └──────────────────┘
+```
+
+### Routing Rules
+
+ClawMark decides where to send each annotation using this priority:
+
+1. **URL pattern rules** — you define patterns like `*github.com/myorg/*` → GitHub Issues
+2. **Auto-detect** — on GitHub pages, automatically creates issues in the detected repo
+3. **Default target** — your fallback delivery channel
+4. **System default** — server-configured catch-all
+
+Manage rules, credentials, and view your annotations in the **Dashboard** (click the extension icon → Open Panel).
 
 ### Self-Hosted Server
 
@@ -87,6 +113,8 @@ cd clawmark
 npm install
 npm start
 ```
+
+Point the extension to your server: Extension icon → Settings → Connection → enter your server URL.
 
 </div>
 
