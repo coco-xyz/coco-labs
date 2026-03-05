@@ -24,7 +24,26 @@ languages:
       displayName: 中文
       description: "COCO 产品展示 — 让人类与 Agent 协同工作。"
 
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Use Case
+      url: https://coco.xyz/use-case
+      weight: 20
+    - name: Pricing
+      url: https://coco.xyz/pricing
+      weight: 30
+    - name: Labs
+      pageRef: /
+      weight: 40
+    - name: Docs
+      url: https://coco.xyz/docs
+      weight: 50
+
 params:
+  highlightCurrentMenuArea: true
   logo: "images/logo/horizontal-black.svg"
   secondaryLogo: "images/logo/horizontal-brand-yellow.svg"
   colorScheme: coco
