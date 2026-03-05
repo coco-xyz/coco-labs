@@ -638,7 +638,7 @@ html {
   background: rgb(var(--color-neutral-50));
   border: 1px solid rgb(var(--color-neutral-200));
   border-radius: 0.75rem;
-  padding: 1.5rem;
+  padding: 1rem 1.25rem;
 }
 
 .dark .feature-card {
@@ -647,8 +647,8 @@ html {
 }
 
 .feature-card .feature-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .feature-card h3 {
@@ -663,10 +663,10 @@ html {
 }
 
 .feature-card p {
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   color: rgb(var(--color-neutral-500));
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .dark .feature-card p {

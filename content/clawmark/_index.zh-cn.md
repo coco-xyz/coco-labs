@@ -43,32 +43,6 @@ layout: "product"
   </div>
 </div>
 
-<div class="features-section" id="cm-whats-new">
-  <h2 id="cm-wn-title">v0.6 新功能</h2>
-  <div id="cm-wn-content" class="features-grid">
-    <div class="feature-card">
-      <div class="feature-icon">&#128200;</div>
-      <h3>控制台</h3>
-      <p>完整的配置中心，6 个标签页：概览、账户、连接、分发规则、站点管理和关于。</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">&#128274;</div>
-      <h3>Google 登录</h3>
-      <p>一键 Google OAuth 认证，身份信息自动与标注同步。</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">&#128204;</div>
-      <h3>标注覆盖层</h3>
-      <p>可拖拽、可调整大小的标注窗口，支持分发状态显示和自定义标签。</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">&#127760;</div>
-      <h3>站点管理</h3>
-      <p>黑名单或白名单模式 — 精确控制 ClawMark 在哪些网站上启用。</p>
-    </div>
-  </div>
-</div>
-
 <div class="quickstart-section">
   <h2>快速开始</h2>
 
@@ -104,6 +78,10 @@ ClawMark 按以下优先级决定标注的投递目标：
 4. **系统默认** — 服务端配置的全局默认
 
 在 **Dashboard** 中管理规则、凭证和查看你的标注（点击扩展图标 → 打开面板）。
+
+### 公共服务器
+
+官方托管服务器地址：**`https://api.coco.xyz/clawmark`** — 无需任何配置，安装扩展即可使用。
 
 ### 自托管服务端
 
@@ -146,47 +124,9 @@ npm start
     .then(function(d) {
       if (!d.tag_name) return;
       var v = d.tag_name.replace(/^v/, '');
-
-      // 更新版本号
       document.getElementById('cm-version').textContent = 'v' + v;
 
-      // 更新 What's New 标题
-      var wnTitle = document.getElementById('cm-wn-title');
-      if (wnTitle) wnTitle.textContent = d.tag_name + ' 新功能';
-
-      // 从 release notes 解析 What's New 区块
       var body = (d.body || '').replace(/\r\n/g, '\n');
-      var wnMatch = body.match(/##\s+What's New([\s\S]*?)(?=\n##|$)/);
-      if (wnMatch && wnMatch[1].trim()) {
-        var wnContent = document.getElementById('cm-wn-content');
-        if (wnContent) {
-          var sections = wnMatch[1].trim().split(/\n###\s+/).filter(Boolean);
-          var html = '';
-          // P1-1: XSS escape for content from GitHub API
-          function esc(s) { var d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
-          var icons = {
-            'dashboard': '&#128200;', 'welcome': '&#127881;', 'badge': '&#128178;',
-            'ux': '&#127912;', 'polish': '&#10024;', 'annotation': '&#128204;',
-            'site': '&#127760;', 'sign': '&#128274;', 'auth': '&#128274;',
-            'error': '&#9889;', 'fix': '&#128295;', 'perf': '&#9889;',
-            'maintenance': '&#128296;', 'default': '&#11088;'
-          };
-          sections.forEach(function(sec) {
-            var lines = sec.split('\n');
-            var title = lines[0].trim();
-            var shortTitle = title.replace(/^Phase [\d.]+\s*[—\-–]\s*/, '').trim() || title;
-            var items = lines.slice(1).filter(function(l){ return l.trim().startsWith('-'); })
-              .slice(0, 3)
-              .map(function(l){ return l.replace(/^\s*-\s*/, ''); });
-            var desc = items.length ? items.join(' · ') : lines.slice(1).filter(Boolean)[0] || '';
-            var iconKey = Object.keys(icons).find(function(k){ return title.toLowerCase().includes(k); }) || 'default';
-            html += '<div class="feature-card"><div class="feature-icon">' + icons[iconKey] + '</div><h3>' + esc(shortTitle) + '</h3><p>' + esc(desc) + '</p></div>';
-          });
-          if (html) wnContent.innerHTML = html;
-        }
-      }
-
-      // 显示最新发布区块
       var sec = document.getElementById('cm-release');
       if (sec) {
         sec.style.display = '';
@@ -197,7 +137,7 @@ npm start
       }
     })
     .catch(function() {
-      document.getElementById('cm-version').textContent = 'v0.6.3';
+      document.getElementById('cm-version').textContent = 'v0.6';
     });
 })();
 </script>
