@@ -51,6 +51,18 @@ params:
     links:
       - github: https://github.com/coco-xyz
 
+menus:
+  main:
+    - name: Zylos
+      pageRef: zylos-core
+      weight: 10
+    - name: HxA Connect
+      pageRef: hxa-connect
+      weight: 20
+    - name: ClawMark
+      pageRef: clawmark
+      weight: 30
+
 markup:
   goldmark:
     renderer:
