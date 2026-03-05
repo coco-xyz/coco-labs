@@ -53,6 +53,7 @@ languages:
           weight: 40
 
 params:
+  headerTitle: "Labs"
   highlightCurrentMenuArea: true
   logo: "images/logo/horizontal-black.svg"
   secondaryLogo: "images/logo/horizontal-brand-yellow.svg"
