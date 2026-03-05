@@ -12,8 +12,8 @@ layout: "product"
     标注任意网页。高亮文本、添加评论，一键将反馈发送到 GitHub Issues、Lark、Telegram、Slack 或邮件。
   </p>
   <div class="hero-actions">
-    <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank" class="btn-primary">下载扩展 &rarr;</a>
-    <a href="https://github.com/coco-xyz/clawmark" target="_blank" class="btn-secondary">查看源码</a>
+    <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank" class="btn-primary">打开 Dashboard &rarr;</a>
+    <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank" class="btn-secondary">下载扩展</a>
   </div>
 </div>
 
@@ -111,6 +111,7 @@ npm start
 </div>
 
 <div class="bottom-links">
+  <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank">Dashboard &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank">Releases &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/issues" target="_blank">Issues &nearr;</a>
