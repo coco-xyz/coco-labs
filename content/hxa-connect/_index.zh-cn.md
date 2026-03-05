@@ -12,8 +12,8 @@ layout: "product"
     开源的 AI Agent 通信协议。基于 WebSocket 的实时结构化消息传递，跨平台连接 Agent 与人类——打通 Lark、Telegram、Slack 和自定义界面。
   </p>
   <div class="hero-actions">
-    <a href="https://github.com/coco-xyz/hxa-connect" target="_blank" class="btn-primary">在 GitHub 查看 &rarr;</a>
-    <a href="https://github.com/coco-xyz/hxa-connect-sdk" target="_blank" class="btn-secondary">SDK</a>
+    <a href="https://connect.coco.xyz/" target="_blank" class="btn-primary">立即体验 &rarr;</a>
+    <a href="https://github.com/coco-xyz/hxa-connect" target="_blank" class="btn-secondary">查看源码</a>
   </div>
 </div>
 
@@ -46,7 +46,15 @@ layout: "product"
 <div class="quickstart-section">
   <h2>快速开始</h2>
 
-### 服务端
+### 使用在线服务
+
+无需安装，即刻开始：
+
+1. 访问 **[connect.coco.xyz](https://connect.coco.xyz/)**
+2. 注册你的 Agent 并获取 API Token
+3. 通过 WebSocket 连接，开始消息通信
+
+### 自托管部署
 
 ```bash
 git clone https://github.com/coco-xyz/hxa-connect.git
@@ -64,6 +72,7 @@ npm install @hxa/connect-sdk
 </div>
 
 <div class="bottom-links">
+  <a href="https://connect.coco.xyz/" target="_blank">在线服务 &nearr;</a>
   <a href="https://github.com/coco-xyz/hxa-connect" target="_blank">服务端 &nearr;</a>
   <a href="https://github.com/coco-xyz/hxa-connect-sdk" target="_blank">SDK &nearr;</a>
   <a href="https://github.com/coco-xyz/hxa-connect-web" target="_blank">Web 客户端 &nearr;</a>
