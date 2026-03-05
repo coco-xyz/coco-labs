@@ -72,12 +72,38 @@ layout: "product"
 <div class="quickstart-section">
   <h2>快速开始</h2>
 
-### Chrome 扩展
+### 安装
 
 1. 从 [GitHub Releases](https://github.com/coco-xyz/clawmark/releases) 下载最新版本
 2. 打开 `chrome://extensions/`，开启**开发者模式**
 3. 点击**加载已解压的扩展程序**，选择扩展文件夹
-4. 访问任意网页，开始标注
+4. 点击工具栏 ClawMark 图标，使用 **Google 登录**
+
+### 使用方式
+
+在任意网页上选中文本，浮动工具栏会自动出现。点击**评论**或**问题**即可创建标注。ClawMark 会根据你的投递规则自动路由到对应的目标。
+
+```
+   你的标注             ClawMark 服务器          投递目标
+┌─────────────┐     ┌────────────────┐     ┌──────────────────┐
+│  选中文本    │────▶│ 收集 & 存储     │────▶│ GitHub Issues    │
+│  添加评论    │     │ 解析规则        │     │ GitLab Issues    │
+│  提交        │     │ 分发            │     │ Lark / Telegram  │
+└─────────────┘     └────────────────┘     │ Slack / 邮件     │
+                                            │ Webhook          │
+                                            └──────────────────┘
+```
+
+### 路由规则
+
+ClawMark 按以下优先级决定标注的投递目标：
+
+1. **URL 匹配规则** — 你定义模式如 `*github.com/myorg/*` → GitHub Issues
+2. **自动检测** — 在 GitHub 页面上自动识别仓库并创建 Issue
+3. **默认目标** — 你设置的兜底投递渠道
+4. **系统默认** — 服务端配置的全局默认
+
+在 **Dashboard** 中管理规则、凭证和查看你的标注（点击扩展图标 → 打开面板）。
 
 ### 自托管服务端
 
@@ -87,6 +113,8 @@ cd clawmark
 npm install
 npm start
 ```
+
+将扩展指向你的服务器：扩展图标 → 设置 → 连接 → 输入服务器 URL。
 
 </div>
 
