@@ -26,21 +26,18 @@ languages:
 
 menus:
   main:
-    - name: Home
-      pageRef: /
+    - name: COCO
+      url: https://coco.xyz/
       weight: 10
-    - name: Use Case
-      url: https://coco.xyz/use-case
+    - name: Use Cases
+      url: https://docs.coco.xyz/use-cases/
       weight: 20
     - name: Pricing
-      url: https://coco.xyz/pricing
+      url: https://coco.xyz/#pricing
       weight: 30
-    - name: Labs
-      pageRef: /
-      weight: 40
     - name: Docs
-      url: https://coco.xyz/docs
-      weight: 50
+      url: https://docs.coco.xyz/
+      weight: 40
 
 params:
   highlightCurrentMenuArea: true
