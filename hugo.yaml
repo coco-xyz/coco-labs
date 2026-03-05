@@ -42,7 +42,7 @@ languages:
         - name: COCO
           url: https://coco.xyz/
           weight: 10
-        - name: 用例
+        - name: 使用案例
           url: https://docs.coco.xyz/use-cases/
           weight: 20
         - name: 价格
