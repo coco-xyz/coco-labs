@@ -5,6 +5,15 @@ html {
   font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
 }
 
+/* ===== HEADER NAV ===== */
+.main-menu {
+  justify-content: center;
+}
+
+.main-menu > div:last-child {
+  margin-inline-start: 0 !important;
+}
+
 /* ===== HOMEPAGE HERO ===== */
 .coco-hero {
   padding: 5rem 1.5rem 3rem;
