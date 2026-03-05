@@ -14,13 +14,7 @@
   </div>
 
   <!-- Product Nav -->
-  <nav class="product-nav">
-    <a href="{{ "zylos-core/" | relURL }}" class="product-nav-item">&#129302; Zylos</a>
-    <span class="product-nav-sep">&middot;</span>
-    <a href="{{ "hxa-connect/" | relURL }}" class="product-nav-item">&#128225; HxA Connect</a>
-    <span class="product-nav-sep">&middot;</span>
-    <a href="{{ "clawmark/" | relURL }}" class="product-nav-item">&#9997;&#65039; ClawMark</a>
-  </nav>
+  {{ partial "product-nav.html" . }}
 
   <!-- Stats Bar -->
   <div class="stats-bar">

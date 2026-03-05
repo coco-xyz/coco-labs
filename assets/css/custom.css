@@ -126,6 +126,16 @@ html {
   background: rgba(var(--color-primary-500), 0.12);
 }
 
+.product-nav-active {
+  color: rgb(var(--color-primary-600)) !important;
+  background: rgba(var(--color-primary-500), 0.1);
+}
+
+.dark .product-nav-active {
+  color: rgb(var(--color-primary-400)) !important;
+  background: rgba(var(--color-primary-500), 0.15);
+}
+
 .product-nav-sep {
   color: rgb(var(--color-neutral-300));
   font-size: 0.85rem;
