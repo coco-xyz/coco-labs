@@ -236,6 +236,7 @@ html {
 .featured-card-icon {
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .featured-card h3 {
@@ -243,6 +244,7 @@ html {
   font-weight: 700;
   color: rgb(var(--color-neutral-900));
   margin: 0 0 0.5rem;
+  text-align: center;
 }
 
 .dark .featured-card h3 {
@@ -340,6 +342,7 @@ html {
 .product-card .card-icon {
   font-size: 2rem;
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .product-card h3 {
@@ -347,6 +350,7 @@ html {
   font-weight: 700;
   color: rgb(var(--color-neutral-900));
   margin: 0 0 0.5rem;
+  text-align: center;
 }
 
 .dark .product-card h3 {
