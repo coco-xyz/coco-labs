@@ -53,20 +53,40 @@ layout: "product"
 3. Click **Load unpacked** and select the extension folder
 4. Click the ClawMark icon in the toolbar and **Sign in with Google**
 
-### How It Works
+### How to Use
 
-Select any text on a webpage — a floating toolbar appears. Click **Comment** or **Issue** to create an annotation. ClawMark automatically routes it to the right place based on your delivery rules.
+1. **Select text** on any webpage — a floating toolbar appears near your selection
+2. **Click an action**: **Comment** (add a note) or **Issue** (create a bug/task)
+3. **Add context** — type your comment, choose a label, or adjust the target
+4. **Submit** — ClawMark saves the annotation and dispatches it to your configured channels
+5. **Track** — open the Dashboard to view, search, resolve, or re-dispatch annotations
+
+### Data Flow
 
 ```
-  You annotate         ClawMark Server        Delivery Targets
-┌─────────────┐     ┌────────────────┐     ┌──────────────────┐
-│  Select text │────▶│ Collect & Store │────▶│ GitHub Issues    │
-│  Add comment │     │ Resolve rules  │     │ GitLab Issues    │
-│  Submit      │     │ Dispatch       │     │ Lark / Telegram  │
-└─────────────┘     └────────────────┘     │ Slack / Email    │
-                                            │ Webhook          │
-                                            └──────────────────┘
+  Browser Extension          ClawMark Server              Delivery Targets
+┌───────────────────┐     ┌──────────────────────┐     ┌──────────────────┐
+│ 1. Select text    │     │ 4. Store annotation  │     │ GitHub Issues    │
+│ 2. Add comment    │────▶│ 5. Resolve routing   │────▶│ GitLab Issues    │
+│ 3. Submit         │     │    rules (priority)  │     │ Lark / Telegram  │
+│                   │     │ 6. Dispatch to       │     │ Slack / Email    │
+│ Captures:         │     │    matched channels  │     │ Linear / Jira    │
+│ · selected text   │     │ 7. Log delivery      │     │ Webhook          │
+│ · page URL        │     │    status            │     │ HxA Connect      │
+│ · screenshot      │     └──────────────────────┘     └──────────────────┘
+│ · DOM context     │               │
+└───────────────────┘     ┌──────────────────────┐
+                          │      Dashboard        │
+                          │ View / search / resolve│
+                          │ Manage rules & creds  │
+                          └──────────────────────┘
 ```
+
+**Extension → Server:** Annotations are sent via REST API (JWT-authenticated). Each annotation includes the selected text, page URL, optional screenshot, and DOM context.
+
+**Server → Targets:** The server evaluates routing rules in priority order, formats the annotation for each matched channel, and dispatches. Delivery status is logged per channel.
+
+**Dashboard:** Web UI for managing annotations (view, search, resolve, delete), configuring delivery rules, and storing credentials for third-party services.
 
 ### Routing Rules
 
