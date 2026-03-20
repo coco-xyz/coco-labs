@@ -1,15 +1,15 @@
 ---
 title: "Zylos"
-description: "自主 AI Agent 框架"
+description: "企业级 AI Agent 框架 — 兼容 OpenClaw"
 weight: 7
 layout: "product"
 ---
 
 <div class="product-hero">
-  <span class="badge">Agent 框架</span>
+  <span class="badge">兼容 OpenClaw 的 Agent 框架</span>
   <h1>Zylos</h1>
   <p class="tagline">
-    开源自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统——构建独立运行的 Agent 所需的一切。
+    开源自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统——构建独立运行的 Agent 所需的一切。完全兼容 OpenClaw 生态。
   </p>
   <div class="hero-actions">
     <a href="https://github.com/zylos-ai/zylos-core" target="_blank" class="btn-primary">在 GitHub 查看 &rarr;</a>

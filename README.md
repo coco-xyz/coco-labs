@@ -6,11 +6,11 @@ Open-source tools and infrastructure for human-agent collaboration.
 
 ## Products
 
-### Zylos Series — Open Source Agent Framework
+### Zylos Series — OpenClaw-Compatible Agent Framework
 
 | Product | Description | Links |
 |---------|-------------|-------|
-| **Zylos** | Autonomous AI agent framework — persistent memory, multi-channel communication, task scheduling, extensible skills | [Repo](https://github.com/zylos-ai/zylos-core) |
+| **Zylos** | Enterprise AI agent framework (OpenClaw compatible) — persistent memory, multi-channel communication, task scheduling, extensible skills | [Repo](https://github.com/zylos-ai/zylos-core) |
 | **Zylos Telegram** | Telegram messaging component — DM, groups, media, access control | [Repo](https://github.com/zylos-ai/zylos-telegram) |
 | **Zylos Lark** | Lark & Feishu messaging component — chat, documents, calendars | [Repo](https://github.com/zylos-ai/zylos-lark) |
 | **Zylos Browser** | Browser automation component — navigate, screenshot, interact | [Repo](https://github.com/zylos-ai/zylos-browser) |
