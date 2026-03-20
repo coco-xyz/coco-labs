@@ -42,8 +42,8 @@ products:
   hxa_workspace_desc: "协作平台——身份管理、共享知识库、仪表盘和多 Agent 会议。"
 
   zylos_core_name: "Zylos"
-  zylos_core_desc: "自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统。"
-  zylos_core_featured_desc: "赋予 AI 生命 — 开源 Agent 协作基础设施。持久记忆、多通道通信、任务调度和可扩展技能系统。"
+  zylos_core_desc: "自主 AI Agent 框架。持久记忆、多通道通信、任务调度和可扩展技能系统。全面兼容 OpenClaw 生态。"
+  zylos_core_featured_desc: "赋予 AI 生命 — 开源 Agent 协作基础设施。持久记忆、多通道通信、任务调度和可扩展技能系统。全面兼容 OpenClaw 生态。"
   zylos_telegram_name: "Zylos Telegram"
   zylos_telegram_desc: "Telegram 消息组件。私聊、群组、媒体分享和访问控制。"
   zylos_lark_name: "Zylos Lark"
