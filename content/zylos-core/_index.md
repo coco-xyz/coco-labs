@@ -42,6 +42,13 @@ layout: "product"
   </div>
 </div>
 
+<div class="features-section">
+  <h2>OpenClaw Compatibility</h2>
+  <p>
+    Zylos is fully compatible with the <strong>OpenClaw ecosystem</strong> — agents can install and use OpenClaw skills and plugins directly. All seven capability dimensions (memory, communication, scheduling, skills, browser, messaging, and image generation) are available out of the box.
+  </p>
+</div>
+
 <div class="quickstart-section">
   <h2>Quick Start</h2>
 

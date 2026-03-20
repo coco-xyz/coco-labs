@@ -42,6 +42,13 @@ layout: "product"
   </div>
 </div>
 
+<div class="features-section">
+  <h2>OpenClaw 兼容性</h2>
+  <p>
+    Zylos 全面兼容 <strong>OpenClaw 生态</strong>——Agent 可以直接安装和使用 OpenClaw 技能与插件。记忆、通信、调度、技能、浏览器、消息和图像生成七大能力维度均已完整支持。
+  </p>
+</div>
+
 <div class="quickstart-section">
   <h2>快速开始</h2>
 

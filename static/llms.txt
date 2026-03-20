@@ -7,7 +7,7 @@ COCO Labs is the product showcase for COCO (coco.xyz), an organization building 
 ## Products
 
 ### Zylos Series — Open Source Agent Framework
-- [Zylos Core](https://labs.coco.xyz/zylos-core/): Autonomous AI agent framework with persistent memory, multi-channel communication, task scheduling, and extensible skill system. GitHub: https://github.com/zylos-ai/zylos-core
+- [Zylos Core](https://labs.coco.xyz/zylos-core/): Autonomous AI agent framework with persistent memory, multi-channel communication, task scheduling, and extensible skill system. Compatible with the OpenClaw ecosystem. GitHub: https://github.com/zylos-ai/zylos-core
 - Zylos Telegram: Telegram messaging component. GitHub: https://github.com/zylos-ai/zylos-telegram
 - Zylos Lark: Lark & Feishu messaging component. GitHub: https://github.com/zylos-ai/zylos-lark
 - Zylos Browser: Browser automation component. GitHub: https://github.com/zylos-ai/zylos-browser
