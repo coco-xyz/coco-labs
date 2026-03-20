@@ -1,15 +1,15 @@
 ---
 title: "Zylos"
-description: "Autonomous AI agent framework"
+description: "Enterprise AI agent framework — OpenClaw compatible"
 weight: 7
 layout: "product"
 ---
 
 <div class="product-hero">
-  <span class="badge">Agent Framework</span>
+  <span class="badge">OpenClaw-Compatible Agent Framework</span>
   <h1>Zylos</h1>
   <p class="tagline">
-    Open-source framework for building autonomous AI agents. Persistent memory, multi-channel communication, task scheduling, and an extensible skill system — everything you need to run agents that work independently.
+    Open-source framework for building autonomous AI agents. Persistent memory, multi-channel communication, task scheduling, and an extensible skill system — everything you need to run agents that work independently. Fully compatible with the OpenClaw ecosystem.
   </p>
   <div class="hero-actions">
     <a href="https://github.com/zylos-ai/zylos-core" target="_blank" class="btn-primary">View on GitHub &rarr;</a>

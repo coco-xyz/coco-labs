@@ -7,11 +7,11 @@ description: "Products and tools by COCO"
 Building tools that empower humans and AI agents to work together seamlessly.
 {{< /lead >}}
 
-## Zylos Series — Open Source Framework
+## Zylos Series — OpenClaw-Compatible Framework
 
 | Product | Description | |
 |---------|-------------|---|
-| **[Zylos](zylos-core/)** | Autonomous AI agent framework | {{< button href="https://github.com/zylos-ai/zylos-core" target="_blank" >}}GitHub{{< /button >}} |
+| **[Zylos](zylos-core/)** | Enterprise AI agent framework (OpenClaw compatible) | {{< button href="https://github.com/zylos-ai/zylos-core" target="_blank" >}}GitHub{{< /button >}} |
 | **Zylos Telegram** | Telegram messaging component | {{< button href="https://github.com/zylos-ai/zylos-telegram" target="_blank" >}}GitHub{{< /button >}} |
 
 {{< button href="https://github.com/zylos-ai" target="_blank" >}}More Zylos Projects →{{< /button >}}
