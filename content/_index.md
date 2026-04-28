@@ -13,6 +13,7 @@ Building tools that empower humans and AI agents to work together seamlessly.
 |---------|-------------|---|
 | **[Zylos](zylos-core/)** | Autonomous AI agent framework | {{< button href="https://github.com/zylos-ai/zylos-core" target="_blank" >}}GitHub{{< /button >}} |
 | **Zylos Telegram** | Telegram messaging component | {{< button href="https://github.com/zylos-ai/zylos-telegram" target="_blank" >}}GitHub{{< /button >}} |
+| **[Zylos Recruit](zylos-recruit/)** | AI-assisted recruiting ATS | {{< button href="https://github.com/zz-howard/zylos-recruit" target="_blank" >}}GitHub{{< /button >}} |
 
 {{< button href="https://github.com/zylos-ai" target="_blank" >}}More Zylos Projects →{{< /button >}}
 
