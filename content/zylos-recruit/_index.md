@@ -72,7 +72,7 @@ layout: "product"
   <h2>Install</h2>
 
 ```bash
-zylos add recruit
+zylos add zz-howard/zylos-recruit
 ```
 
 </div>
