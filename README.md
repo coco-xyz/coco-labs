@@ -12,6 +12,7 @@ Open-source tools and infrastructure for human-agent collaboration.
 |---------|-------------|-------|
 | **Zylos** | Autonomous AI agent framework — persistent memory, multi-channel communication, task scheduling, extensible skills | [Repo](https://github.com/zylos-ai/zylos-core) |
 | **Zylos Telegram** | Telegram messaging component — DM, groups, media, access control | [Repo](https://github.com/zylos-ai/zylos-telegram) |
+| **Zylos Recruit** | AI-assisted recruiting ATS — resume evaluation, role matching, role portrait discovery, reference interview questions, candidate pipeline | [Page](https://labs.coco.xyz/zylos-recruit/) · [Repo](https://github.com/zz-howard/zylos-recruit) |
 | **Zylos Lark** | Lark & Feishu messaging component — chat, documents, calendars | [Repo](https://github.com/zylos-ai/zylos-lark) |
 | **Zylos Browser** | Browser automation component — navigate, screenshot, interact | [Repo](https://github.com/zylos-ai/zylos-browser) |
 | **Zylos ImageGen** | AI image generation using Google Gemini | [Repo](https://github.com/zylos-ai/zylos-imagegen) |

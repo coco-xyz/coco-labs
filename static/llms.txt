@@ -9,6 +9,7 @@ COCO Labs is the product showcase for COCO (coco.xyz), an organization building 
 ### Zylos Series — Open Source Agent Framework
 - [Zylos Core](https://labs.coco.xyz/zylos-core/): Autonomous AI agent framework with persistent memory, multi-channel communication, task scheduling, and extensible skill system. GitHub: https://github.com/zylos-ai/zylos-core
 - Zylos Telegram: Telegram messaging component. GitHub: https://github.com/zylos-ai/zylos-telegram
+- [Zylos Recruit](https://labs.coco.xyz/zylos-recruit/): AI-assisted recruiting ATS for resume evaluation, role matching, role portrait discovery, reference interview-question generation, and candidate pipeline management. GitHub: https://github.com/zz-howard/zylos-recruit
 - Zylos Lark: Lark & Feishu messaging component. GitHub: https://github.com/zylos-ai/zylos-lark
 - Zylos Browser: Browser automation component. GitHub: https://github.com/zylos-ai/zylos-browser
 - Zylos ImageGen: AI image generation using Google Gemini. GitHub: https://github.com/zylos-ai/zylos-imagegen

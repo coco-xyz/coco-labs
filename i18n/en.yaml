@@ -46,6 +46,8 @@ products:
   zylos_core_featured_desc: "Give your AI a life — open-source agent infrastructure for team collaboration. Persistent memory, multi-channel communication, task scheduling, and extensible skill system."
   zylos_telegram_name: "Zylos Telegram"
   zylos_telegram_desc: "Telegram messaging component. DM, groups, media sharing, and access control."
+  zylos_recruit_name: "Zylos Recruit"
+  zylos_recruit_desc: "AI-assisted recruiting ATS for resume evaluation, role matching, role portrait discovery, reference interview questions, and candidate pipeline management."
   zylos_lark_name: "Zylos Lark"
   zylos_lark_desc: "Lark & Feishu messaging component. Chat, documents, calendars, and rich cards."
   zylos_browser_name: "Zylos Browser"

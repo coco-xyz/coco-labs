@@ -46,6 +46,8 @@ products:
   zylos_core_featured_desc: "赋予 AI 生命 — 开源 Agent 协作基础设施。持久记忆、多通道通信、任务调度和可扩展技能系统。"
   zylos_telegram_name: "Zylos Telegram"
   zylos_telegram_desc: "Telegram 消息组件。私聊、群组、媒体分享和访问控制。"
+  zylos_recruit_name: "Zylos Recruit"
+  zylos_recruit_desc: "AI 辅助招聘 ATS，用于简历评估、岗位匹配、岗位画像访谈、参考面试题和候选人流程管理。"
   zylos_lark_name: "Zylos Lark"
   zylos_lark_desc: "飞书/Lark 消息组件。聊天、文档、日历和富文本卡片。"
   zylos_browser_name: "Zylos Browser"
