@@ -1,4 +1,4 @@
-baseURL: https://labs.coco.xyz/
+baseURL: https://labs.icoco.ai/
 languageCode: en
 defaultContentLanguage: en
 title: "COCO - AI Teams Platform"
@@ -19,16 +19,16 @@ languages:
     menus:
       main:
         - name: COCO
-          url: https://coco.xyz/
+          url: https://icoco.ai/
           weight: 10
         - name: Use Cases
-          url: https://docs.coco.xyz/use-cases/
+          url: https://docs.icoco.ai/use-cases/
           weight: 20
         - name: Pricing
-          url: https://coco.xyz/#pricing
+          url: https://icoco.ai/#pricing
           weight: 30
         - name: Docs
-          url: https://docs.coco.xyz/
+          url: https://docs.icoco.ai/
           weight: 40
   zh-cn:
     languageName: 中文
@@ -40,16 +40,16 @@ languages:
     menus:
       main:
         - name: COCO
-          url: https://coco.xyz/
+          url: https://icoco.ai/
           weight: 10
         - name: 使用案例
-          url: https://docs.coco.xyz/use-cases/
+          url: https://docs.icoco.ai/use-cases/
           weight: 20
         - name: 价格
-          url: https://coco.xyz/#pricing
+          url: https://icoco.ai/#pricing
           weight: 30
         - name: 文档
-          url: https://docs.coco.xyz/
+          url: https://docs.icoco.ai/
           weight: 40
 
 params:

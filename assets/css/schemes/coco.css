@@ -1,7 +1,7 @@
-/* COCO color scheme — amber/gold accent matching coco.xyz */
+/* COCO color scheme — amber/gold accent matching icoco.ai */
 :root {
   --color-neutral: 255, 255, 255;
-  /* Tailwind Gray (matching coco.xyz) */
+  /* Tailwind Gray (matching icoco.ai) */
   --color-neutral-50: 249, 250, 251;
   --color-neutral-100: 243, 244, 246;
   --color-neutral-200: 229, 231, 235;

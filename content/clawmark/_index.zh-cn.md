@@ -12,7 +12,7 @@ layout: "product"
     标注任意网页。高亮文本、添加评论，一键将反馈发送到 GitHub Issues、Lark、Telegram、Slack 或邮件。
   </p>
   <div class="hero-actions">
-    <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank" class="btn-primary">打开 Dashboard &rarr;</a>
+    <a href="https://labs.icoco.ai/clawmark/dashboard/" target="_blank" class="btn-primary">打开 Dashboard &rarr;</a>
     <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank" class="btn-secondary">下载扩展</a>
   </div>
 </div>
@@ -81,7 +81,7 @@ ClawMark 按以下优先级决定标注的投递目标：
 
 ### 公共服务器
 
-官方托管服务器地址：**`https://api.coco.xyz/clawmark`** — 无需任何配置，安装扩展即可使用。
+官方托管服务器地址：**`https://api.icoco.ai/clawmark`** — 无需任何配置，安装扩展即可使用。
 
 ### 自托管服务端
 
@@ -111,7 +111,7 @@ npm start
 </div>
 
 <div class="bottom-links">
-  <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank">Dashboard &nearr;</a>
+  <a href="https://labs.icoco.ai/clawmark/dashboard/" target="_blank">Dashboard &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank">Releases &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/issues" target="_blank">Issues &nearr;</a>

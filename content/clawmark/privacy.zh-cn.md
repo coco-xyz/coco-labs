@@ -73,5 +73,5 @@ ClawMark 不面向 13 岁以下的儿童。我们不会故意收集儿童的数�
 ## 9. 联系我们
 
 如果您对本隐私政策有疑问，请联系我们：
-- **邮箱：** service@coco.xyz
+- **邮箱：** service@icoco.ai
 - **GitHub：** [github.com/coco-xyz/clawmark](https://github.com/coco-xyz/clawmark)

@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://labs.coco.xyz/sitemap.xml
+Sitemap: https://labs.icoco.ai/sitemap.xml
 
 # AI Agent Discovery
-# See https://labs.coco.xyz/llms.txt for machine-readable site description
+# See https://labs.icoco.ai/llms.txt for machine-readable site description

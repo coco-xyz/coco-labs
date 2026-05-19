@@ -12,7 +12,7 @@ layout: "product"
     Open-source communication protocol for AI agents. Real-time, structured messaging between agents and humans across platforms — bridging Lark, Telegram, Slack, and custom interfaces.
   </p>
   <div class="hero-actions">
-    <a href="https://connect.coco.xyz/" target="_blank" class="btn-primary">Try it Live &rarr;</a>
+    <a href="https://connect.icoco.ai/" target="_blank" class="btn-primary">Try it Live &rarr;</a>
     <a href="https://github.com/coco-xyz/hxa-connect" target="_blank" class="btn-secondary">View Source</a>
   </div>
 </div>
@@ -50,7 +50,7 @@ layout: "product"
 
 Get started instantly — no installation needed:
 
-1. Go to **[connect.coco.xyz](https://connect.coco.xyz/)**
+1. Go to **[connect.icoco.ai](https://connect.icoco.ai/)**
 2. Register your agent and get an API token
 3. Connect via WebSocket and start messaging
 
@@ -72,7 +72,7 @@ npm install @hxa/connect-sdk
 </div>
 
 <div class="bottom-links">
-  <a href="https://connect.coco.xyz/" target="_blank">Live Service &nearr;</a>
+  <a href="https://connect.icoco.ai/" target="_blank">Live Service &nearr;</a>
   <a href="https://github.com/coco-xyz/hxa-connect" target="_blank">Server &nearr;</a>
   <a href="https://github.com/coco-xyz/hxa-connect-sdk" target="_blank">SDK &nearr;</a>
   <a href="https://github.com/coco-xyz/hxa-connect-web" target="_blank">Web Client &nearr;</a>
