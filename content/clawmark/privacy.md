@@ -73,5 +73,5 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 ## 9. Contact Us
 
 If you have questions about this Privacy Policy, please contact us:
-- **Email:** service@coco.xyz
+- **Email:** service@icoco.ai
 - **GitHub:** [github.com/coco-xyz/clawmark](https://github.com/coco-xyz/clawmark)

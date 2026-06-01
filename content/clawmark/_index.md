@@ -12,7 +12,7 @@ layout: "product"
     Annotate any webpage. Highlight text, add comments, and route feedback to GitHub Issues, Lark, Telegram, Slack, or email — all in one click.
   </p>
   <div class="hero-actions">
-    <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank" class="btn-primary">Open Dashboard &rarr;</a>
+    <a href="https://labs.icoco.ai/clawmark/dashboard/" target="_blank" class="btn-primary">Open Dashboard &rarr;</a>
     <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank" class="btn-secondary">Download Extension</a>
   </div>
 </div>
@@ -101,7 +101,7 @@ Manage rules, credentials, and view your annotations in the **Dashboard** (click
 
 ### Public Server
 
-The official hosted server is available at **`https://api.coco.xyz/clawmark`** — no setup required. Just install the extension and start annotating.
+The official hosted server is available at **`https://api.icoco.ai/clawmark`** — no setup required. Just install the extension and start annotating.
 
 ### Self-Hosted Server
 
@@ -131,7 +131,7 @@ Point the extension to your server: Extension icon → Settings → Connection �
 </div>
 
 <div class="bottom-links">
-  <a href="https://labs.coco.xyz/clawmark/dashboard/" target="_blank">Dashboard &nearr;</a>
+  <a href="https://labs.icoco.ai/clawmark/dashboard/" target="_blank">Dashboard &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark" target="_blank">GitHub &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/releases" target="_blank">Releases &nearr;</a>
   <a href="https://github.com/coco-xyz/clawmark/issues" target="_blank">Issues &nearr;</a>
